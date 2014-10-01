@@ -42,6 +42,13 @@ ul.posts li {
     list-style: none;
 }
 
+/* iframe's parent node */
+div#root {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
 /* iframe itself */
 div#root > iframe {
     display: block;
