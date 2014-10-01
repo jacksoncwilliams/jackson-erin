@@ -3,29 +3,27 @@ layout: default
 title: Résumé
 ---
 <body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-<var buffer = 20; //scroll bar buffer
-var iframe = document.getElementById('https://docs.google.com/document/d/1ukB3hPLp1g8-P73uAIvoeRFQUK6wuCLdPwpxdg-6T20/pub?embedded=true');
+<style>
+*{margin:0;padding:0}
+html, body {height:100%;width:100%;overflow:hidden}
+table {height:100%;width:100%;table-layout:static;border-collapse:collapse}
+iframe {height:100%;width:100%}
 
-function pageY(elem) {
-    return elem.offsetParent ? (elem.offsetTop + pageY(elem.offsetParent)) : elem.offsetTop;
-}
+.header {border-bottom:1px solid #000}
+.content {height:100%}
+</style>
 
-function resizeIframe() {
-    var height = document.documentElement.clientHeight;
-    height -= pageY(document.getElementById('https://docs.google.com/document/d/1ukB3hPLp1g8-P73uAIvoeRFQUK6wuCLdPwpxdg-6T20/pub?embedded=true'))+ buffer ;
-    height = (height < 0) ? 0 : height;
-    document.getElementById('https://docs.google.com/document/d/1ukB3hPLp1g8-P73uAIvoeRFQUK6wuCLdPwpxdg-6T20/pub?embedded=true').style.height = height + 'px';
-}
 
-// .onload doesn't work with IE8 and older.
-if (iframe.attachEvent) {
-    iframe.attachEvent("onload", resizeIframe);
-} else {
-    iframe.onload=resizeIframe;
-}
+<table>
+  <tr><td class="header"><div><h1>Header</h1></div></td></tr>
+  <tr><td class="content">
+      <iframe src="https://docs.google.com/document/d/1ukB3hPLp1g8-P73uAIvoeRFQUK6wuCLdPwpxdg-6T20/pub?embedded=true" frameborder="0"></iframe></td></tr>
+</table>
 
-window.onresize = resizeIframe;
+
   
 </body>
-
+</html>
