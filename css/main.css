@@ -25,7 +25,7 @@ a:hover {
     color: #999;
 }
 a:active {
-    text-decoration: bold;
+    text-decoration: none;
     color: #999;
 }
 h1 {
