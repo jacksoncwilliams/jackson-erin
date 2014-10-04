@@ -26,8 +26,7 @@
  }
  a:active {
      text-decoration: none;
-     color: #999;
-+    font-size: 125%;
+     color: #999; font-size: 125%;
  }
  h1 {
      font-size: 3em;
