@@ -28,8 +28,8 @@ float: left;
 background: inherit;
 margin-left: 10px;
 color: #96B766;
-text-transform: bold;
-font-weight: 100;
+text-transform: none;
+font-weight: bold;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 4em;
 }
