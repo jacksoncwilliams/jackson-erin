@@ -1,67 +1,179 @@
- body {
-     margin: 60px auto;
-     width: 70%;
- }
- nav ul, footer ul {
-     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-     padding: 0px;
-     list-style: none;
-     font-weight: bold;
- }
- nav ul li, footer ul li {
-     display: inline;
-     margin-right: 20px;
- }
- a:link {
-     text-decoration: none;
-     color: #999;
- }
- a:visited {
-     text-decoration: none;
-     color: #999;
- }
- a:hover {
-     text-decoration: underline;
-     color: #999;
- }
- a:active {
-     text-decoration: none;
-     color: #999; font-size: 125%;
- }
- h1 {
-     font-size: 3em;
-     font-family:'Helvetica', 'Arial', 'Sans-Serif';
- }
- p {
-     font-size: 1.5em;
-     line-height: 1.4em;
-     color: #333;
- }
- footer {
-     border-top: 1px solid #d5d5d5;
-     font-size: .8em;
- }
- 
- ul.posts { 
-     margin: 20px auto 40px; 
-     font-size: 1.5em;
- }
- 
- ul.posts li {
-     list-style: none;
- }
- 
- /* iframe's parent node */
- div#root {
-     position: fixed;
-     width: 100%;
-     height: 100%;
- }
- 
- /* iframe itself */
- div#root > iframe {
-     display: block;
-     width: 100%;
-     height: 100%;
-     border: none;
- }
+body {
+background: #fff url(backg.jpg) ;
+font-family: Times New Roman,verdana, arial, Trebuchet MS;
+font-size: 80%;
+color: #b0b0b0;}
+
+*{
+margin: 0px;
+padding: 0px;}
+
+#sitebox { 
+width: 750px;
+height: 100%;
+margin: 0 auto 15px auto;
+margin-top: 10px;
+background: #f4f4f4;
+color: #000;
+border: 1px solid #c0c0c0;}
+
+
+#header {
+background: #f4f4f4 url(headgradient.png) repeat-x;
+width: 750px;
+height: 60px;}
+
+#header h1 {
+float: left;
+background: inherit;
+margin-left: 10px;
+color: #96B766;
+text-transform: lowercase;
+font-weight: 100;
+font-family: Times New Roman, Trebuchet MS, arial;
+font-size: 4em;
+}
+
+#header .subtitle {
+float: right;
+color: #d0d0d0;
+font-size: 0.93em;
+margin-top: 15px;
+margin-right: 30px;
+text-transform: lowercase;
+font-family: Times New Roman, verdana, arial;
+margin-left: 250px;}
+
+#header .subtitle span:hover {
+color: #000;
+background: #f4f4f4;}
+
+
+#navigation {
+clear: both;
+margin-top: 8px;
+height: 20px;
+background: #f4f4f4;}
+
+#navigation a {
+font-family: Trebuchet MS, arial;
+margin-left: 30px;
+background: #f4f4f4;
+text-transform: lowercase;
+color: #a0a0a0;
+font-size: 1.1em;
+text-decoration: none;
+letter-spacing: 0.1em;}
+
+#navigation a:hover {
+color: #F26F29;}
+
+
+#picture {
+width: 100%;
+margin-top: 10px;
+height: 150px;
+background: #000;}
+
+#picture .sorry{
+color: #fff;
+margin: 10px;
+font-size: 0.8em;
+text-align: center;
+background: inherit;
+margin-left: 5px;}
+
+#picture .sorry a{
+color: #fff;
+text-decoration: underline;}
+
+
+#lcontent  {
+margin-top: 10px;
+padding: 5px;
+padding-right: 15px;
+line-height: 17px;
+width: 400px;
+float: left;
+background: #f4f4f4 url(dots.png) repeat-y right;
+color: #b0b0b0;}
+
+#lcontent h2	   {
+margin: 5px;
+margin-left: 15px;
+color: #134B6E;
+width: 300px;
+text-transform: uppercase;
+font-family: Times New Roman, Verdana, arial;
+font-size: 19px;
+background: #f4f4f4 url(h1bg.png) repeat-x bottom;}
+
+p {
+color: #a0a0a0;
+font-family: verdana;
+margin-top: 5px;
+font-size: 0.9em;
+line-spacing: 0.3em;
+margin-left: 10px;}
+
+a {
+color: #96B766;
+text-decoration: none;}
+
+a:hover {
+color: #f26f29;
+text-decoration: underline;}
+
+.date {
+color: #000;
+margin-left: 40px;
+margin-top: 5px;
+text-decoration: lowercase;
+font-size: 0.8em;}
+
+.date a{
+color: #000;}
+
+.date a:hover{
+color: #000;
+text-decoration: underline;}
+
+/****Right Cotent*****/
+
+#rcontent {
+margin-right: 10px;
+width: 250px;
+float: right;
+line-height: 17px;
+margin-left: 0px;
+text-align: left;
+background: #f4f4f4;}
+
+#rcontent h2	   {
+
+margin-left: 0px;
+color: #F26F29;
+width: 250px;
+text-transform: uppercase;
+font-family: Verdana, arial;
+font-size: 1.2em;
+background: #f4f4f4 url(h1bg.png) repeat-x bottom;}
+
+#rcontent p{
+width: 250px;
+color: #a0a0a0;
+font-family: verdana;
+margin-top: 5px;
+font-size: 0.9em;
+margin-left: 0px;}
+
+
+#footer{
+clear: both;
+margin-top:20px;
+width: 100%;
+font-size: 0.7em;
+background: #f4f4f4 url(h1bg.png) repeat-x bottom;
+height: 20px;
+color: #b0b0b0;
+text-align: center;}
