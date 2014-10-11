@@ -1,6 +1,6 @@
 body {
 background: #fff url(/backg.jpg) ;
-font-family: Times New Roman,verdana, arial, Trebuchet MS;
+font-family: 'Helvetica', 'Arial', 'Sans-Serif'S;
 font-size: 80%;
 color: #b0b0b0;}
 
@@ -41,7 +41,7 @@ font-size: 0.93em;
 margin-top: 15px;
 margin-right: 30px;
 text-transform: lowercase;
-font-family: Times New Roman, verdana, arial;
+font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 margin-left: 250px;}
 
 #header .subtitle span:hover {
@@ -56,7 +56,7 @@ height: 20px;
 background: #f4f4f4;}
 
 #navigation a {
-font-family: Trebuchet MS, arial;
+font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 margin-left: 30px;
 background: #f4f4f4;
 text-transform: lowercase;
@@ -104,7 +104,7 @@ margin-left: 15px;
 color: #134B6E;
 width: 300px;
 text-transform: uppercase;
-font-family: Times New Roman, Verdana, arial;
+font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
 background: #f4f4f4 url(/h1bg.png) repeat-x bottom;}
 
@@ -155,14 +155,14 @@ margin-left: 0px;
 color: #F26F29;
 width: 250px;
 text-transform: uppercase;
-font-family: Verdana, arial;
+font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 1.2em;
 background: #f4f4f4 url(/h1bg.png) repeat-x bottom;}
 
 #rcontent p{
 width: 250px;
 color: #a0a0a0;
-font-family: verdana;
+font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 margin-top: 5px;
 font-size: 0.9em;
 margin-left: 0px;}
