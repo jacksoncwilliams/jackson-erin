@@ -1,5 +1,5 @@
 body {
-background: #fff url(backg.jpg) ;
+background: #fff url(/backg.jpg) ;
 font-family: Times New Roman,verdana, arial, Trebuchet MS;
 font-size: 80%;
 color: #b0b0b0;}
@@ -19,7 +19,7 @@ border: 1px solid #c0c0c0;}
 
 
 #header {
-background: #f4f4f4 url(headgradient.png) repeat-x;
+background: #f4f4f4 url(/headgradient.png) repeat-x;
 width: 750px;
 height: 60px;}
 
@@ -95,7 +95,7 @@ padding-right: 15px;
 line-height: 17px;
 width: 400px;
 float: left;
-background: #f4f4f4 url(dots.png) repeat-y right;
+background: #f4f4f4 url(/dots.png) repeat-y right;
 color: #b0b0b0;}
 
 #lcontent h2	   {
@@ -106,7 +106,7 @@ width: 300px;
 text-transform: uppercase;
 font-family: Times New Roman, Verdana, arial;
 font-size: 19px;
-background: #f4f4f4 url(h1bg.png) repeat-x bottom;}
+background: #f4f4f4 url(/h1bg.png) repeat-x bottom;}
 
 p {
 color: #a0a0a0;
@@ -157,7 +157,7 @@ width: 250px;
 text-transform: uppercase;
 font-family: Verdana, arial;
 font-size: 1.2em;
-background: #f4f4f4 url(h1bg.png) repeat-x bottom;}
+background: #f4f4f4 url(/h1bg.png) repeat-x bottom;}
 
 #rcontent p{
 width: 250px;
@@ -173,7 +173,7 @@ clear: both;
 margin-top:20px;
 width: 100%;
 font-size: 0.7em;
-background: #f4f4f4 url(h1bg.png) repeat-x bottom;
+background: #f4f4f4 url(/h1bg.png) repeat-x bottom;
 height: 20px;
 color: #b0b0b0;
 text-align: center;}
