@@ -177,3 +177,7 @@ background: #f4f4f4 url(/h1bg.png) repeat-x bottom;
 height: 20px;
 color: #b0b0b0;
 text-align: center;}
+
+#containerimagehead { width: 780px; //whatever width you want }
+
+#imagehead {width: 100%; //fill up whole div }
