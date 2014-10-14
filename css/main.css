@@ -90,9 +90,8 @@ text-decoration: underline;}
 
 
 #lcontent  {
-margin-top: 95px;
-padding: 0px;
-padding-right: 0px;
+margin-top: 100px;
+padding: 10px;
 line-height: 17px;
 width: 780px;
 clear: none;
@@ -116,7 +115,9 @@ font-family: verdana;
 margin-top: 20px;
 font-size: 0.9em;
 line-spacing: 0.3em;
-margin-left: 10px;}
+margin-left: 10px;
+margin-right: 10px;
+}
 
 a {
 color: #96B766;
