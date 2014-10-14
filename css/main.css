@@ -167,6 +167,12 @@ margin-top: 5px;
 font-size: 0.9em;
 margin-left: 0px;}
 
+.RETROtxt {
+ 
+color: #707070;
+text-shadow: 5px 4px 0 #eee,7px 6px 0 #707070;
+}
+
 
 #footer{
 clear: both;
