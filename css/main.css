@@ -11,7 +11,7 @@ padding: 0px;}
 #sitebox { 
 width: 780px;
 height: 100%;
-margin: 0 auto 150px auto;
+margin: 0 auto 15px auto;
 margin-top: 10px;
 background: #f4f4f4;
 color: #000;
@@ -90,7 +90,7 @@ text-decoration: underline;}
 
 
 #lcontent  {
-margin-top: 20px;
+margin-top: 200px;
 padding: 5px;
 padding-right: 15px;
 line-height: 17px;
