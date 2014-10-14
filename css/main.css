@@ -24,7 +24,8 @@ width: 750px;
 height: 60px;}
 
 #header h1 {
-float: center;
+float: left;
+text-align: center;
 background: inherit;
 margin-left: 10px;
 color: #96B766;
