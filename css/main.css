@@ -24,12 +24,12 @@ width: 750px;
 height: 60px;}
 
 #header h1 {
-float: left;
+float: center;
 background: inherit;
 margin-left: 10px;
 color: #96B766;
 text-transform: none;
-font-weight: bold;
+font-weight: normal;
 font-family: "Brush Script MT", cursive;
 font-size: 4em;
 }
