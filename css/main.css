@@ -104,10 +104,11 @@ background: #f4f4f4 url(/h1bg.png) repeat-x bottom;}
 #lcontent p {
 color: #a0a0a0;
 font-family: verdana;
+margin: 10px;
 margin-top: 20px;
 font-size: 0.9em;
 line-spacing: 0.3em;
-margin-left: 0px;
+
 
 }
 
