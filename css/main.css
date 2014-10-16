@@ -152,3 +152,8 @@ text-align: center;}
 	width:70px; 
 	margin-right:-20px; 
 } 
+
+#mainlogo {
+  max-width: 780px;
+  margin: 0 auto; 
+}
