@@ -101,7 +101,7 @@ font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
 background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;}
 
-#lcontent p {{
+#lcontent p {
 color: #a0a0a0;
 font-family: verdana;
 margin: 10px;
@@ -140,7 +140,8 @@ text-decoration: underline;}
 #footer{
 clear: both;
 padding-top:200px;
-max-width: 100%;
+margin: 0 auto
+max-width: 780%;
 font-size: 0.7em;
 background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;
 height: 20px;
@@ -148,7 +149,7 @@ color: #b0b0b0;
 text-align: center;
 border: 0px solid #c0c0c0;}
 
-}
+
 
 
 
