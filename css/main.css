@@ -162,3 +162,15 @@ border: 0px solid #c0c0c0;}
   max-width: 780px;
   margin: 1em auto;
 }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  article img {
+    float: right;
+    width: 50%;
+  }
