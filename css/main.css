@@ -155,5 +155,10 @@ text-align: center;}
 
 #mainlogo {
   max-width: 780px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  clear: none;
+text-align: center;
+margin-top: 8px;
+height: 20px;
+background: #f4f4f4;}
 }
