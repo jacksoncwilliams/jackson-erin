@@ -174,3 +174,38 @@ border: 0px solid #c0c0c0;}
     float: right;
     width: 50%;
   }
+
+
+
+
+
+.pagebottomlinks{ 
+	padding-top:20px;
+	padding-bottom:20px;  
+} 
+
+.BottomMenu{display:inline;left:auto;right:auto;}
+.pagebottomlinks a{text-align:left;padding:16px 7px 9px 7px;border:1px solid rgba(255,255,255, 0);font-size:14px !important; margin:5px 2px 2px 2px;position:relative;color:#000;  border-radius:3px;  text-decoration:none; line-height:36px;}
+.pagebottomlinks a > img{padding:5px 6px 0px 5px; margin-top:2px;}
+
+.img_right{display:inline;position:absolute;top:-45px;right:60px;}
+#menu li:hover .align_right{left:auto;right:-1px;top:auto;}
+#menu p, #menu h2, #menu h3, #menu ul li{font-family:Arial, Helvetica, sans-serif;line-height:21px;font-size:13px !important;text-align:left;text-shadow:1px 1px 1px #FFFFFF;}
+#menu h2{font-size:21px;font-weight:400;letter-spacing:-1px;margin:7px 0 14px 0;padding-bottom:14px;border-bottom:1px solid #666666;}
+#menu h3 a{font-size:12px;margin:7px 0 14px 0;padding-bottom:7px;border-bottom:1px solid #888888;font-weight:bold;}
+#menu h4 a{font-size:12px;margin:4px 65px 4px 0;padding-bottom:4px;border-bottom:1px solid #888888;font-weight:bold;}
+#menu p{margin:0 0 10px 0;line-height:18px;}
+#menu li:hover div a{color:#000000;}
+#menu li:hover div a:hover{color:#cc6633;}
+.strong{font-weight:bold;}
+.italic{font-style:italic;}
+.imgshadow{background:#FFFFFF;padding:4px;border:0px solid #777777;margin-top:5px;-moz-box-shadow:1px 1px 5px #666666;-webkit-box-shadow:1px 1px 5px #666666;box-shadow:1px 1px 5px #666666;}
+.img_left{width:auto;float:left;margin:5px 15px 5px 5px;}
+#menu li .black_box{background-color:#333333;color:#eeeeee;text-shadow:1px 1px 1px #000;padding:4px 6px 4px 6px;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;-webkit-box-shadow:inset 1px 1px 3px #000000;-moz-box-shadow:inset 1px 1px 3px #000000;box-shadow:inset 1px 1px 3px #000000;}
+#menu li ul{list-style:none;padding:0;margin:0 0 12px 0;}
+#menu li ul li{font-size:12px;line-height:24px;position:relative;text-shadow:1px 1px 1px #ffffff;padding:0;margin:0;float:none;text-align:left;width:130px;}
+#menu li ul li:hover{background:none;border:none;padding:0;margin:0;}
+#menu li .greybox li{background:#F4F4F4;border:0px solid #bbbbbb;margin:0px 0px 4px 0px;padding:4px 6px 4px 6px;width:116px;-moz-border-radius:0px;-webkit-border-radius:0px;-khtml-border-radius:0px;border-radius:0px;}
+#menu li .greybox li:hover{background:#ffffff;border:0px solid #aaaaaa;padding:4px 6px 4px 6px;margin:0px 0px 4px 0px;}
+.topmenu{}
+.topmenu .topboxes{padding-left:6px;padding-right:5px;font-family:Arial, Helvetica, sans-serif;font-size:11px;position:relative;top:8px;right:-15px;background:#ffffff;border:0px solid #aaaaaa;}
