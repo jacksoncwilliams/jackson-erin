@@ -1,5 +1,5 @@
 body {
-background: #fff url(/backg.jpg) ;
+background: #fff url(/images/backg.jpg) ;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif'S;
 font-size: 80%;
 color: #b0b0b0;}
@@ -19,7 +19,7 @@ border: 0px solid #c0c0c0;}
 
 
 #header {
-background: #f4f4f4 url(/headgradient.png) repeat-x;
+background: #f4f4f4 url(/images/headgradient.png) repeat-x;
 width: 780px;
 height: 60px;}
 
@@ -99,7 +99,7 @@ width: 770px;
 text-transform: uppercase;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
-background: #f4f4f4 url(/h1bg.png) repeat-x bottom;}
+background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;}
 
 #lcontent p {
 color: #a0a0a0;
@@ -141,7 +141,7 @@ text-decoration: underline;}
 margin-top:10px;
 width: 780px;
 font-size: 0.7em;
-background: #f4f4f4 url(/h1bg.png) repeat-x bottom;
+background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;
 height: 40px;
 color: #b0b0b0;
 text-align: center;}
