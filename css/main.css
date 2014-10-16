@@ -138,11 +138,12 @@ text-decoration: underline;}
 
 
 #footer{
-margin-top:10px;
-width: 780px;
+clear: both;
+margin-top:20px;
+width: 100%;
 font-size: 0.7em;
 background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;
-height: 40px;
+height: 20px;
 color: #b0b0b0;
 text-align: center;}
 
