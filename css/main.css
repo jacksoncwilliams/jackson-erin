@@ -9,9 +9,9 @@ margin: 0px;
 padding: 0px;}
 
 #sitebox { 
-width: 780px;
+max-width: 780px;
 height: 100%;
-margin: 0 auto 15px auto;
+margin: 0 auto;
 margin-top: 10px;
 background: #f4f4f4;
 color: #000;
