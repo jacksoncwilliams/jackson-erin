@@ -140,7 +140,7 @@ text-decoration: underline;}
 #footer{
 clear: both;
 padding-top:200px;
-max-width: 780%;
+max-width: 780px;
 margin: 0 auto;
 font-size: 0.7em;
 background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;
