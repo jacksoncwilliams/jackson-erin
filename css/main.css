@@ -1,15 +1,8 @@
 body {
-    /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)" url(/images/backgrounds/brick6.jpg) ;
+background: #fff url(/images/backgrounds/brick6.jpg) ;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif'S;
 font-size: 80%;
-color: #000;}
+color: #b0b0b0;}
 
 *{
 margin: 0px;
@@ -20,26 +13,13 @@ max-width: 780px;
 height: 100%;
 margin: 0 auto;
 margin-top: 10px;
-background:     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+background: #f4f4f4;
+color: #000;
 border: 0px solid #c0c0c0;}
 
 
 #header {
-background:     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)" url(/images/headgradient.png) repeat-x;
+background: #f4f4f4 url(/images/headgradient.png) repeat-x;
 max-width: 780px;
 height: 60px;}
 
@@ -65,14 +45,7 @@ margin-left: 250px;}
 
 #header .subtitle span:hover {
 color: #000;
-    /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";}
+background: #f4f4f4;}
 
 
 #navigation {
@@ -80,27 +53,13 @@ clear: none;
 text-align: center;
 margin-top: 8px;
 height: 20px;
-background:     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";}
+background: #f4f4f4;}
 
 #navigation a {
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 margin-left: 40px;
 padding-right: 40px;
-background:     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+background: #f4f4f4;
 text-transform: lowercase;
 color: #a0a0a0;
 font-size: 1.1em;
@@ -140,14 +99,7 @@ max-width: 770px;
 text-transform: uppercase;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
-    /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)" url(/images/h1bg.png) repeat-x bottom;}
+background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;}
 
 #lcontent p {
 color: #a0a0a0;
@@ -192,14 +144,7 @@ padding-bottom: 10px;
 max-width: 780px;
 margin: 0px auto;
 font-size: 0.7em;
-    /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)" url(/images/h1bg.png) repeat-x bottom;
+background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;
 height: 20px;
 color: #b0b0b0;
 text-align: center;
