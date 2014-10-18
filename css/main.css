@@ -156,9 +156,10 @@ border: 0px solid #c0c0c0;}
 
 
 .li_floatleft{ 
-	display:inherit; 
+	display:inline-block; 
 	width:70px; 
 	margin-right:-20px; 
+	margin-bottom: 10px;
 } 
 
 
