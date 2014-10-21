@@ -91,7 +91,7 @@ text-decoration: underline;}
 
 
 
-#lcontent h2	   {
+#content h2	   {
 margin: 5px;
 margin-top: 110px;
 color: #134B6E;
@@ -101,7 +101,7 @@ font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
 background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;}
 
-#lcontent p {
+#content p {
 color: #a0a0a0;
 font-family: verdana;
 margin: 10px;
