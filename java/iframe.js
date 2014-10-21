@@ -29,3 +29,13 @@ compliant (e.g. Mozilla)
 ("myFrame");
         frame.height = frameDoc.body.offsetHeight;
     }
+
+function adjustMyFrameSize()
+{
+var frame = getElement("myFrame");
+var frameDoc = getIFrameDocument("myFrame");
+if (navigator.appName == "Microsoft Internet Explorer")
+frame.style.height = frameDoc.body.scrollHeight+'px';
+else
+frame.style.height = frameDoc.body.offsetHeight+'px';
+}
