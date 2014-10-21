@@ -1,22 +1,31 @@
-var buffer = 20; //scroll bar buffer
-var iframe = document.getElementById('https://docs.google.com/document/d/1Zm5k7HUNcLVbAnniQxctmQJO2Km6qmf-FAsq_1D5Vs8/pub?embedded=true');
+function getElement(aID)
+    {
+        return (document.getElementById) ?
+            document.getElementById(aID) : 
 
-function pageY(elem) {
-    return elem.offsetParent ? (elem.offsetTop + pageY(elem.offsetParent)) : elem.offsetTop;
-}
+document.all[aID];
+    }
 
-function resizeIframe() {
-    var height = document.documentElement.clientHeight;
-    height -= pageY(document.getElementById('https://docs.google.com/document/d/1Zm5k7HUNcLVbAnniQxctmQJO2Km6qmf-FAsq_1D5Vs8/pub?embedded=true'))+ buffer ;
-    height = (height < 0) ? 0 : height;
--    document.getElementById('https://docs.google.com/document/d/1Zm5k7HUNcLVbAnniQxctmQJO2Km6qmf-FAsq_1D5Vs8/pub?embedded=true').style.height = height + 'px';
-}
+    function getIFrameDocument(aID){ 
+        var rv = null; 
+        var frame=getElement(aID);
+        // if contentDocument exists, W3C 
 
-// .onload doesn't work with IE8 and older.
-if (iframe.attachEvent) {
-    iframe.attachEvent("onload", resizeIframe);
-} else {
-    iframe.onload=resizeIframe;
-}
+compliant (e.g. Mozilla) 
+        if (frame.contentDocument)
+            rv = frame.contentDocument;
+        else // bad Internet Explorer  ;)
+            rv = document.frames[aID].document;
+        return rv;
+    }
 
-window.onresize = resizeIframe;
+    function adjustMyFrameSize()
+    {
+        var frame = getElement
+
+("myFrame");
+        var frameDoc = getIFrameDocument
+
+("myFrame");
+        frame.height = frameDoc.body.offsetHeight;
+    }
