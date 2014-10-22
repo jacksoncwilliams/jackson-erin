@@ -37,6 +37,9 @@ color: #000;
 font-weight: normal;
 font-family: cursive;
 font-size: 4em;
+border: 2px solid #c0c0c0;
+border-radius: 10px;
+
 }
 
 #header .subtitle {
@@ -47,7 +50,10 @@ margin-top: 15px;
 margin-right: 30px;
 text-transform: lowercase;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-margin-left: 250px;}
+margin-left: 250px;
+border: 2px solid #c0c0c0;
+border-radius: 10px;	
+}
 
 #header .subtitle span:hover {
 color: #000;
@@ -73,7 +79,10 @@ text-transform: lowercase;
 color: #a0a0a0;
 font-size: 1.1em;
 text-decoration: none;
-letter-spacing: 0.1em;}
+letter-spacing: 0.1em;
+border: 2px solid #c0c0c0;
+border-radius: 10px;	
+}
 
 #navigation a:hover {
 color: #F26F29;}
@@ -83,7 +92,10 @@ color: #F26F29;}
 max-width: 780px;
 margin-top: 10px;
 height: 150px;
-background: #000;}
+background: #000;
+border: 2px solid #c0c0c0;
+border-radius: 10px;	
+}
 
 #picture .sorry{
 color: #fff;
