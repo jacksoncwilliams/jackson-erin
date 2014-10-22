@@ -13,7 +13,14 @@ max-width: 780px;
 height: 100%;
 margin: 0 auto;
 margin-top: 10px;
-background: #fff;
+/* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF)";
 color: #000;
 border: 5px solid #fff;
 border-radius: 5px;
@@ -21,7 +28,14 @@ box-shadow: 10px 10px 5px #000;
 }
 
 #header {
-background: .alpha60;
+/* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF)";
 max-width: 780px;
 height: 80px;
 text-align: center;
@@ -43,7 +57,14 @@ background: #fff;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 padding-left: 40px;
 padding-right: 40px;
-background: #fff;
+/* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF)";
 text-transform: lowercase;
 color: #a0a0a0;
 font-size: 1.1em;
@@ -66,7 +87,14 @@ font-weight: bold;
 max-width: 780px;
 margin-top: 0px;
 height: 100px;
-background: #fff;
+/* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF)";
 }
 
 .footerimg {
@@ -92,7 +120,14 @@ max-width: 770px;
 text-transform: uppercase;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
-background: #fff url(/images/h1bg.png) repeat-x bottom;
+/* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF)";url(/images/h1bg.png) repeat-x bottom;
 }
 
 #content p {
@@ -134,7 +169,14 @@ clear: both;
 padding-top:10px;
 padding-bottom: 10px;
 font-size: 0.7em;
-background: #fff url(/images/h1bg.png) repeat-x bottom;
+/* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF)"; url(/images/h1bg.png) repeat-x bottom;
 height: 20px;
 color: #b0b0b0;
 text-align: center;
