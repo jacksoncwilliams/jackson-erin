@@ -106,7 +106,7 @@ color: #a0a0a0;
 font-family: verdana;
 margin: 10px;
 margin-top: 20px;
-margin-bottom: 0px;
+margin-bottom: 20px;
 font-size: 0.9em;
 line-spacing: 0.3em;
 border: 2px solid #c0c0c0;
@@ -140,7 +140,6 @@ text-decoration: underline;}
 
 #footer{
 clear: both;
-margin-top: 15px;
 padding-top:10px;
 padding-bottom: 10px;
 font-size: 0.7em;
