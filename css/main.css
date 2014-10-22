@@ -21,7 +21,7 @@ box-shadow: 10px 10px 5px #000;
 }
 
 #header {
-background: #f4f4f4 url(/images/headgradient.png) repeat-x;
+background: #f4f4f4 url(/images/headgradient.png) repeat-x bottom;
 max-width: 780px;
 height: 80px;
 text-align: center;
