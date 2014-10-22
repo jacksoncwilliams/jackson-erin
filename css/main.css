@@ -29,8 +29,6 @@ color: #000;
 font weight: normal;
 font-family: cursive;
 font-size: 4em;
-border: 2px solid #c0c0c0;
-border-radius: 10px;
 }
 
 #navigation {
@@ -39,8 +37,6 @@ text-align: center;
 margin-top: 1px;
 height: 20px;
 background: #fff;
-border: 2px solid #c0c0c0;
-border-radius: 10px;
 }
 
 #navigation a {
@@ -53,8 +49,6 @@ color: #a0a0a0;
 font-size: 1.1em;
 text-decoration: none;
 letter-spacing: 0.1em;
-border: 2px solid #c0c0c0;
-border-radius: 10px;	
 }
 
 #navigation a:hover {
@@ -68,8 +62,6 @@ max-width: 780px;
 margin-top: 0px;
 height: 100px;
 background: #fff;
-border: 2px solid #c0c0c0;
-border-radius: 10px;	
 }
 
 #picture .sorry{
@@ -95,9 +87,6 @@ text-transform: uppercase;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
 background: #fff url(/images/h1bg.png) repeat-x bottom;
-border: 2px solid #c0c0c0;
-border-radius: 10px;
-	
 }
 
 #content p {
@@ -108,9 +97,6 @@ margin-top: 20px;
 margin-bottom: 20px;
 font-size: 0.9em;
 line-spacing: 0.3em;
-border: 2px solid #c0c0c0;
-border-radius: 10px;
-
 }
 
 a {
@@ -146,8 +132,6 @@ background: #fff url(/images/h1bg.png) repeat-x bottom;
 height: 20px;
 color: #b0b0b0;
 text-align: center;
-border: 2px solid #c0c0c0;
-border-radius: 10px;
 }
 
 
