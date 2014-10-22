@@ -58,7 +58,8 @@ border-radius: 10px;
 }
 
 #navigation a:hover {
-color: #780000;
+color: #A00000;
+font-weight: bold;
 }
 
 
