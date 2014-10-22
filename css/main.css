@@ -50,21 +50,14 @@ clear: none;
 text-align: center;
 margin-top: 1px;
 height: 20px;
-background: #fff;
+background: inherit;
 }
 
 #navigation a {
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 padding-left: 40px;
 padding-right: 40px;
-/* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(255, 255, 255) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(255, 255, 255, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF)";
+background: inherit;
 text-transform: lowercase;
 color: #a0a0a0;
 font-size: 1.1em;
@@ -120,14 +113,7 @@ max-width: 770px;
 text-transform: uppercase;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
-/* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(255, 255, 255) transparent;
-    /* RGBa with 0.6 opacity */
-    background: rgba(255, 255, 255, 0.6);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF)";url(/images/h1bg.png) repeat-x bottom;
+background: inherit url(/images/h1bg.png) repeat-x bottom;
 }
 
 #content p {
