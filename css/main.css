@@ -23,7 +23,6 @@ box-shadow: 10px 10px 5px #888888;
 background: #f4f4f4 url(/images/headgradient.png) repeat-x;
 max-width: 780px;
 height: 60px;
-box-shadow: 10px 10px 5px #888888;	
 }
 
 #header h1 {
@@ -57,7 +56,6 @@ text-align: center;
 margin-top: 8px;
 height: 20px;
 background: #f4f4f4;
-box-shadow: 10px 10px 5px #888888;	
 }
 
 #navigation a {
