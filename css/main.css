@@ -82,12 +82,12 @@ margin-left: 5px;}
 
 #picture .sorry a{
 color: #fff;
-text-decoration: underline;}
+text-decoration: underline;
+}
 
 
 
-
-#content h2	   {
+#content h2 {
 margin: 5px;
 margin-top: 110px;
 color: #134B6E;
@@ -140,7 +140,8 @@ text-decoration: underline;}
 
 #footer{
 clear: both;
-padding-top:50px;
+margin-top: 15px;
+padding-top:10px;
 padding-bottom: 10px;
 font-size: 0.7em;
 background: #f4f4f4 url(/images/h1bg.png) repeat-x bottom;
