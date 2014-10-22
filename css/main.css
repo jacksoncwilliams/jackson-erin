@@ -41,7 +41,7 @@ font-size: 4em;
 #navigation {
 clear: none;
 text-align: center;
-margin-top: 1px;
+padding-top: 1px;
 height: 20px;
 background: inherit;
 }
