@@ -61,24 +61,25 @@ color: #CC0000;
 font-weight: bold;
 }
 
-#picture {
+/* Picture Styling */
+#mainlogo {
 max-width: 780px;
 margin-top: 0px;
 height: 100px;
 background: #fff;
 }
 
-#picture .sorry{
-color: #fff;
-margin: 10px;
-font-size: 0.8em;
-text-align: center;
-background: inherit;
-margin-left: 5px;}
-
-#picture .sorry a{
-color: #fff;
-text-decoration: underline;
+#footerimg {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+#footerimg:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
 }
 
 
