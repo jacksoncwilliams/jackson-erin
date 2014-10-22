@@ -42,22 +42,7 @@ border-radius: 10px;
 
 }
 
-#header .subtitle {
-float: right;
-color: #d0d0d0;
-font-size: 0.93em;
-margin-top: 15px;
-margin-right: 30px;
-text-transform: lowercase;
-font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-margin-left: 250px;
-border: 2px solid #c0c0c0;
-border-radius: 10px;	
-}
 
-#header .subtitle span:hover {
-color: #000;
-background: #f4f4f4;}
 
 
 #navigation {
