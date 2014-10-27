@@ -40,7 +40,6 @@ text-align: center;
 margin-top: 0px;
 width: 780px;
 height: 20px;
-background: inherit;
 }
 
 #navigation a {
@@ -94,7 +93,7 @@ width: 770px;
 text-transform: uppercase;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
-background: inherit url(/images/h1bg.png) repeat-x bottom;
+background: url(/images/h1bg.png) repeat-x bottom;
 }
 
 #content p {
@@ -136,7 +135,7 @@ clear: both;
 padding-top:10px;
 padding-bottom: 10px;
 font-size: 0.7em;
-background: inherit url(/images/h1bg.png) repeat-x bottom;
+background: url(/images/h1bg.png) repeat-x bottom;
 height: 20px;
 color: #b0b0b0;
 text-align: center;
