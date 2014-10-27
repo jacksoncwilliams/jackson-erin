@@ -9,8 +9,8 @@ margin: 0px;
 padding: 0px;}
 
 #sitebox { 
-max-width: 780px;
-max-height: 100%;
+width: 780px;
+height: 100%;
 margin: 0 auto;
 margin-top: 10px;
 /* Fallback for web browsers that doesn't support RGBa */
