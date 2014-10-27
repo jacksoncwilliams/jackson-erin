@@ -10,7 +10,7 @@ padding: 0px;}
 
 #sitebox { 
 max-width: 780px;
-height: 100%;
+max-height: 100%;
 margin: 0 auto;
 margin-top: 10px;
 /* Fallback for web browsers that doesn't support RGBa */
@@ -31,7 +31,7 @@ box-shadow: 10px 10px 5px #000;
 #header {
 background: inherit;
 max-width: 780px;
-height: 80px;
+max-height: 80px;
 text-align: center;
 color: #000;
 font weight: normal;
@@ -72,7 +72,7 @@ font-weight: bold;
 #mainlogo {
 max-width: 780px;
 margin-top: 0px;
-height: 100px;
+max-height: 100px;
 background: inherit;
 }
 
@@ -142,7 +142,7 @@ padding-top:10px;
 padding-bottom: 10px;
 font-size: 0.7em;
 background: inherit url(/images/h1bg.png) repeat-x bottom;
-height: 20px;
+max-height: 20px;
 color: #b0b0b0;
 text-align: center;
 }
@@ -154,7 +154,7 @@ text-align: center;
 
 .li_floatleft{ 
 	display:inline-block; 
-	width:70px; 
+	max-width:70px; 
 	margin-bottom: 10px;
 	margin-right:-20px; 
 } 
