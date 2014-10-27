@@ -10,7 +10,7 @@ height: 100%;
 margin: 0 auto;
 margin-top: 10px;
 /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(255, 255, 255) opacity: 0.8;
+    background: rgb(255, 255, 255) opacity: 0.6;
     				   filter: alpha(opacity=80);;
     /* RGBa with 0.6 opacity */
     background: rgba(255, 255, 255, 0.8);
