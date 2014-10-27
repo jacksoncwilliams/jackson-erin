@@ -75,6 +75,9 @@ height: 100px;
     transition: opacity .1s ease-in-out;
     -moz-transition: opacity .1s ease-in-out;
     -webkit-transition: opacity .1s ease-in-out;
+    
+    width: 20px;
+    height: 20px;
 }
 
 .footerimg:hover {
@@ -82,6 +85,12 @@ height: 100px;
     transition: opacity .0s ease-in-out;
     -moz-transition: opacity .0s ease-in-out;
     -webkit-transition: opacity .0s ease-in-out;
+    
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
 }
 
 
