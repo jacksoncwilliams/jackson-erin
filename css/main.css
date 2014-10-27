@@ -30,8 +30,8 @@ box-shadow: 10px 10px 5px #000;
 
 #header {
 background: inherit;
-max-width: 780px;
-max-height: 80px;
+width: 780px;
+height: 80px;
 text-align: center;
 color: #000;
 font weight: normal;
@@ -70,9 +70,9 @@ font-weight: bold;
 
 /* Picture Styling */
 #mainlogo {
-max-width: 780px;
+width: 780px;
 margin-top: 0px;
-max-height: 100px;
+height: 100px;
 background: inherit;
 }
 
@@ -95,7 +95,7 @@ background: inherit;
 #content h2 {
 margin: 5px;
 color: #134B6E;
-max-width: 770px;
+width: 770px;
 text-transform: uppercase;
 font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 font-size: 19px;
@@ -142,7 +142,7 @@ padding-top:10px;
 padding-bottom: 10px;
 font-size: 0.7em;
 background: inherit url(/images/h1bg.png) repeat-x bottom;
-max-height: 20px;
+height: 20px;
 color: #b0b0b0;
 text-align: center;
 }
@@ -154,15 +154,15 @@ text-align: center;
 
 .li_floatleft{ 
 	display:inline-block; 
-	max-width:70px; 
+	width:70px; 
 	margin-bottom: 10px;
-	margin-right:-20px; 
+	padding-right:-20px; 
 } 
 
 
 
 .content {
-  max-width: 780px;
+  width: 780px;
   margin: 1em auto;
 }
 
