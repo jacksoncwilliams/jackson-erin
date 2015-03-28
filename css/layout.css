@@ -10,7 +10,7 @@ color: #000;
 font-size: 300%;
 }
 
-#navigation {
+.nav {
 position: relative;
 clear: none;
 height: auto;
@@ -165,7 +165,7 @@ text-align: center;
   cursor: default;
 }
  
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .nav li {
     width: auto;
     border-bottom: none;
