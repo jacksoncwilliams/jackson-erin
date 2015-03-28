@@ -44,7 +44,11 @@ font-weight: bold;
 position: relative;
 height: 100px;
 margin-top: 0px;
-
+@media screen and (max-width: 768px) {
+      #mainlogo {
+            display: none;
+      }
+}
 	
 }
 
@@ -128,9 +132,3 @@ text-align: center;
 } 
 
 
-
-@media screen and (max-width: 768px) {
-      #mainlogo {
-            display: none;
-      }
-}
