@@ -20,13 +20,14 @@ margin-top: 0px;
 }
 
 #navigation a {
+padding-left: 20%;
+padding-right: 20%;
 text-align: center;
 text-transform: lowercase;
 color: #a0a0a0;
 font-size: 1.1em;
 text-decoration: none;
 letter-spacing: 0.1em;
-word-spacing: 30px;
 }
 
 #navigation a:hover {
