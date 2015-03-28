@@ -2,7 +2,7 @@ body {
 background: #ffffff url(/images/backgrounds/brick6.jpg) ;}
 
 #header {
-position: absolute;
+position: relative;
 height: auto;
 text-align: center;
 color: #000;
@@ -40,7 +40,7 @@ font-weight: bold;
 
 /* Picture Styling */
 #mainlogo {
-position: static;
+position: relative;
 height: 100px;
 margin-top: 0px;
 
