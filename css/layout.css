@@ -9,6 +9,7 @@ font-size: 300%;
 }
 
 #navigation {
+position: relative;
 clear: none;
 text-align: center;
 margin-top: 0px;
@@ -36,6 +37,7 @@ font-weight: bold;
 
 /* Picture Styling */
 #mainlogo {
+position: relative;
 margin-top: 0px;
 
 	
