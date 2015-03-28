@@ -39,6 +39,13 @@ font-weight: bold;
 #mainlogo {
 margin-top: 0px;
 height: 100px;
+
+@media screen and (max-width: 768px) {
+      .mainlogo {
+            display: none;
+      }
+}
+	
 }
 
 .footerimg {
