@@ -134,3 +134,19 @@ text-align: center;
 } 
 
 
+
+@media screen and (max-width: 480px) {
+#navigation {
+   text-align: center;
+   margin-top: 10px;
+}
+
+#navigation a {
+   display: inline;
+}
+
+#navigation li {
+   float: none;
+   display: inline;
+}
+}
