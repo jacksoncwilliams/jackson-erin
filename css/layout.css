@@ -1,1 +1,125 @@
+body {
+background: #ffffff url(/images/backgrounds/brick6.jpg) ;}
+
+#header {
+height: 80px;
+text-align: center;
+color: #000;
+font weight: normal;
+font-family: cursive;
+font-size: 4em;
+}
+
+#navigation {
+clear: none;
+text-align: center;
+margin-top: 0px;
+height: 20px;
+}
+
+#navigation a {
+padding-left: 40px;
+padding-right: 40px;
+text-transform: lowercase;
+color: #a0a0a0;
+font-size: 1.1em;
+text-decoration: none;
+letter-spacing: 0.1em;
+}
+
+#navigation a:hover {
+color: #CC0000;
+font-weight: bold;
+}
+
+#navigation a:active {
+color: #CC0000;
+font-weight: bold;
+}
+
+/* Picture Styling */
+#mainlogo {
+margin-top: 0px;
+height: 100px;
+}
+
+.footerimg {
+    opacity: 0.6;
+    transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+    
+    width: 20px;
+    height: 20px;
+}
+
+.footerimg:hover {
+    opacity: 1.0;
+    transition: opacity .0s ease-in-out;
+    -moz-transition: opacity .0s ease-in-out;
+    -webkit-transition: opacity .0s ease-in-out;
+    
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+
+
+
+
+
+#content p {
+color: #a0a0a0;
+margin: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 0.9em;
+line-spacing: 0.3em;
+}
+
+a {
+color: #96B766;
+text-decoration: none;}
+
+a:hover {
+color: #f26f29;
+text-decoration: underline;}
+
+.date {
+color: #000;
+margin-left: 40px;
+margin-top: 5px;
+text-decoration: lowercase;
+font-size: 0.8em;}
+
+.date a{
+color: #000;}
+
+.date a:hover{
+color: #000;
+text-decoration: underline;}
+
+
+
+#footer{
+clear: both;
+padding-top:10px;
+padding-bottom: 10px;
+font-size: 0.7em;
+height: 20px;
+color: #b0b0b0;
+text-align: center;
+}
+
+.li_floatleft{ 
+	display:inline-block; 
+	width:70px; 
+	margin-bottom: 10px;
+	padding-right:-20px; 
+} 
+
+
 
