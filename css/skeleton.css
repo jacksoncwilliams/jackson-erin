@@ -37,15 +37,7 @@
   padding: 0 20px;
   box-sizing: border-box; 
   
-  /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(255, 255, 255) opacity: 0.9;
-    				   filter: alpha(opacity=90);;
-    /* RGBa with 0.6 opacity */
-    background: rgba(255, 255, 255, 0.9);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF)";
+
 color: #000;
 border: 5px solid #fff;
 border-radius: 5px;
