@@ -145,7 +145,7 @@ text-align: center;
   font-size: 12px;
   line-height: auto;
   height: auto;
-  border-bottom: 1px solid #888;
+  border-bottom: 0px solid #888;
 }
  
 .nav a {
@@ -167,7 +167,7 @@ text-align: center;
  
 @media screen and (max-width: 480px) {
   .nav li {
-    width: 100%;
+    width: auto;
     border-bottom: none;
     height: auto;
     line-height: auto;
