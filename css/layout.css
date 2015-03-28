@@ -10,7 +10,7 @@ color: #000;
 font-size: 300%;
 }
 
-.nav {
+#navigation {
 position: relative;
 clear: none;
 height: auto;
