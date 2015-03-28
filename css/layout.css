@@ -10,7 +10,7 @@ color: #000;
 font-size: 300%;
 }
 
-#navigation {
+.nav {
 position: relative;
 clear: none;
 height: auto;
@@ -19,7 +19,7 @@ font-size: 16px;
 margin-top: 0px;
 }
 
-#navigation a {
+.nav a {
 padding-left: 5%;
 padding-right: 5%;
 text-align: center;
