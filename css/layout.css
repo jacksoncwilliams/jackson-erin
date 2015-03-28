@@ -167,7 +167,7 @@ text-align: center;
  
 @media screen and (min-width: 600px) {
   .nav li {
-    width: 120px;
+    width: 100%;
     border-bottom: none;
     height: auto;
     line-height: auto;
