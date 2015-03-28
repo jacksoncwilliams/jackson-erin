@@ -3,6 +3,7 @@ background: #ffffff url(/images/backgrounds/brick6.jpg) ;}
 
 #header {
 position: relative;
+overflow: auto;
 height: auto;
 text-align: center;
 color: #000;
