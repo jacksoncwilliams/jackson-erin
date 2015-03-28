@@ -40,11 +40,6 @@ font-weight: bold;
 margin-top: 0px;
 height: 100px;
 
-@media screen and (max-width: 768px) {
-      .mainlogo {
-            display: none;
-      }
-}
 	
 }
 
@@ -129,3 +124,8 @@ text-align: center;
 
 
 
+@media screen and (max-width: 768px) {
+      #mainlogo {
+            display: none;
+      }
+}
