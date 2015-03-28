@@ -20,8 +20,7 @@ margin-top: 0px;
 }
 
 #navigation a {
-padding-left: 40px;
-padding-right: 40px;
+text-align: center;
 text-transform: lowercase;
 color: #a0a0a0;
 font-size: 1.1em;
