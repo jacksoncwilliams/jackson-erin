@@ -44,9 +44,13 @@ font-weight: bold;
 position: relative;
 height: 100px;
 margin-top: 0px;
-@media screen and (max-width: 768px) 
+
+}
+
+@media screen and (max-width: 800px) {
+      #mainlogo {
             display: none;
-	
+      }
 }
 
 .footerimg {
