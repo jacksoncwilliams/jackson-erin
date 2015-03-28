@@ -11,6 +11,7 @@ font-size: 300%;
 #navigation {
 position: relative;
 clear: none;
+height: 80px;
 text-align: center;
 font-size: 16px;
 margin-top: 0px;
@@ -38,7 +39,8 @@ font-weight: bold;
 
 /* Picture Styling */
 #mainlogo {
-position: relative;
+position: fixed;
+height: 100px;
 margin-top: 0px;
 
 	
