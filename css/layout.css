@@ -133,6 +133,7 @@ text-align: center;
 	padding-right:-20px; 
 } 
 
+
 .nav ul {
   list-style: none;
   background-color: #444;
@@ -165,7 +166,7 @@ text-align: center;
   cursor: default;
 }
  
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 600px) {
   .nav li {
     width: 120px;
     border-bottom: none;
@@ -173,9 +174,24 @@ text-align: center;
     line-height: 50px;
     font-size: 1.4em;
   }
-
-}
-.nav li {
+ 
+  
+  .nav li {
     display: inline-block;
     margin-right: -4px;
   }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
