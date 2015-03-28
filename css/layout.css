@@ -2,7 +2,7 @@ body {
 background: #ffffff url(/images/backgrounds/brick6.jpg) ;}
 
 #header {
-height: 80px;
+height: 200px;
 text-align: center;
 color: #000;
 font-size: 300%;
@@ -12,7 +12,6 @@ font-size: 300%;
 clear: none;
 text-align: center;
 margin-top: 0px;
-height: 20px;
 }
 
 #navigation a {
@@ -38,7 +37,6 @@ font-weight: bold;
 /* Picture Styling */
 #mainlogo {
 margin-top: 0px;
-height: 100px;
 
 	
 }
