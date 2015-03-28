@@ -39,7 +39,7 @@ font-weight: bold;
 
 /* Picture Styling */
 #mainlogo {
-position: fixed;
+position: relative;
 height: 100px;
 margin-top: 0px;
 
