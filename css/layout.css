@@ -2,6 +2,7 @@ body {
 background: #ffffff url(/images/backgrounds/brick6.jpg) ;}
 
 #header {
+position: absolute;
 height: auto;
 text-align: center;
 color: #000;
