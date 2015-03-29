@@ -170,8 +170,7 @@ text-align: center;
   .nav li {
    
     border-bottom: none;
-    height: 5px;
-    line-height: 5px;
+  
     font-size: .6em;
   }
  
