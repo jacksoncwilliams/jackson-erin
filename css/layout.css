@@ -152,7 +152,7 @@ text-align: center;
 .nav a {
   text-decoration: none;
   color: #fff;
-  display: inline;
+  display: block;
   transition: .3s background-color;
 }
  
@@ -168,12 +168,12 @@ text-align: center;
  
 @media screen and (min-width: 600px) {
   .nav li {
-  border-bottom: none;
-  height: 30px;
-  line-height: 30px;
-
+    width: 120px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2em;
   }
-
  
   /* Option 1 - Display Inline */
   .nav li {
