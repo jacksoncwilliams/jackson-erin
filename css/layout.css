@@ -111,7 +111,7 @@ text-align: center;
  
 .nav ul {
   list-style: none;
-  background-color: #444;
+  background-color: #000000;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -126,13 +126,14 @@ text-align: center;
  
 .nav a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   display: block;
   transition: .3s background-color;
 }
  
 .nav a:hover {
-  background-color: #005f5f;
+  background-color: #000000;
+  color: #ffffff;
 }
  
 .nav a.active {
