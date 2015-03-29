@@ -148,7 +148,9 @@ padding-right: 5%;
   font-size: 12px;
   line-height: auto;
   height: auto;
-  border-bottom: 0px solid #888;
+  border-bottom: 1px solid #888;
+  padding-left: 5%;
+padding-right: 5%;
 }
  
 .nav a {
@@ -157,6 +159,8 @@ padding-right: 5%;
   color: #ffffff;
   display: block;
   transition: .3s background-color;
+  padding-left: 5%;
+padding-right: 5%;
 }
  
 .nav a:hover {
@@ -175,6 +179,8 @@ padding-right: 5%;
     display: inline-block;
     margin-right: -4px;
     font-size: 12px;
+    padding-left: 5%;
+padding-right: 5%;
   }
  
   
