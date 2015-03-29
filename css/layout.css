@@ -175,12 +175,8 @@ text-align: center;
   }
  
   
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
  
-  /* Options 2 - Float
+   Options 2 - Float
   .nav li {
     float: left;
   }
@@ -192,5 +188,5 @@ text-align: center;
   .nav {
     background-color: #444;
   }
-  */
-}
+  
+
