@@ -1,6 +1,8 @@
 body {
-background: #ffffff url(/images/backgrounds/brick6.jpg) ;}
-
+background: #ffffff url(/images/backgrounds/brick6.jpg) ;
+  margin: 0;
+  padding: 0;
+}
 #header {
 position: relative;
 overflow: auto;
@@ -105,9 +107,11 @@ text-align: center;
 } 
 
 
+
+ 
 .nav ul {
-  background-color: #000000;
   list-style: none;
+  background-color: #444;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -151,3 +155,18 @@ text-align: center;
     display: inline-block;
     margin-right: -4px;
   }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
