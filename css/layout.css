@@ -175,6 +175,9 @@ text-align: center;
   }
   .nav ul {
   height:.6em;	
+  padding: none;
+  margin:none;
+  	
   }
  
   /* Option 1 - Display Inline */
