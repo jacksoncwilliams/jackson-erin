@@ -170,15 +170,11 @@ text-align: center;
   .nav li {
    
     border-bottom: none;
-  
-    font-size: .6em;
-  }
-  .nav ul {
-  height:50px;	
+  height: 50px;
   line-height: 50px;
- 
-  	
+    font-size: 18px;
   }
+
  
   /* Option 1 - Display Inline */
   .nav li {
