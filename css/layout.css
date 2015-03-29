@@ -135,6 +135,7 @@ text-align: center;
 
 
 .nav ul {
+  font-size: 12px;
   list-style: none;
   background-color: #000000;
   text-align: center;
@@ -149,6 +150,7 @@ text-align: center;
 }
  
 .nav a {
+  font-size: 12px;
   text-decoration: none;
   color: #ffffff;
   display: block;
@@ -157,17 +159,20 @@ text-align: center;
  
 .nav a:hover {
   background-color: #005f5f;
+	
 }
  
 .nav a.active {
   background-color: #ffffff;
   color: #000000;
   cursor: default;
+  font-size: 12px;
 }
  
 .nav li {
     display: inline-block;
     margin-right: -4px;
+    font-size: 12px;
   }
  
   
