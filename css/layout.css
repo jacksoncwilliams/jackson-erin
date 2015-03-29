@@ -150,10 +150,9 @@ text-align: center;
     font-size: 1.2em;
   }
  
-   Option 1 - Display Inline 
+  /* Option 1 - Display Inline */
   .nav li {
     display: inline-block;
     margin-right: -4px;
-   
   }
 }
