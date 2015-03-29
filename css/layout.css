@@ -165,28 +165,13 @@ text-align: center;
   cursor: default;
 }
  
-@media screen and (min-width: 480px) {
-  .nav li {
-    width: auto;
-    border-bottom: none;
-    height: auto;
-    line-height: auto;
-    font-size: 12px;
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
   }
  
   
  
-   Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
+
   
 
