@@ -21,7 +21,7 @@ margin-top: 0px;
 
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 950px) {
       #mainlogo {
             display: none;
       }
