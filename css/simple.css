@@ -1,8 +1,34 @@
-header { height:auto; width:100%; background:#fff; overflow:hidden; 
+/* =============================================================================
+   Header Name Area
+   ========================================================================== */
+header { 
+  height:auto; 
+  width:100%; 
+  background:#fff; 
+  overflow:hidden; 
+  height: 90px;
+  position: inherit;
 }
-.main-name { text-align:center;  text-transform:uppercase; text-decoration: none; font-weight:800; font-size:1.3em; 
+
+.main-name { 
+  text-align:center;  
+  text-transform:uppercase; 
+  text-decoration: none; 
+  font-weight:800; 
+  font-size:1.3em; 
 }
-.main-name a { padding:20px; color:#000; text-decoration: none;
+
+.main-name a { 
+  padding:20px; 
+  color:#000; 
+  text-decoration: none;
 }
-.main-name a:hover { color:#e6af61; text-decoration: none;
+
+.main-name a:hover { 
+  color:#e6af61; t
+  ext-decoration: none;
 }
+
+/* =============================================================================
+   Next Area
+   ========================================================================== */
