@@ -32,7 +32,7 @@ header {
 #name {
    position: absolute;
    top:50%;
-   margin: auto;
+   margin-left: 50%;
    height:auto;
    width: 50%;
    
