@@ -7,7 +7,7 @@ header {
   background:#fff; 
   overflow:hidden; 
   height: 90px;
-  position: inherit;
+  position: relative;
 }
 
 .main-name { 
@@ -27,6 +27,11 @@ header {
 .main-name a:hover { 
   color:#e6af61; t
   ext-decoration: none;
+}
+
+#name {
+   position: absolute;
+   top:50%;
 }
 
 /* =============================================================================
