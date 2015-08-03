@@ -1,0 +1,22 @@
+header { height:80px; width:100%; background:#fff; overflow:hidden; 
+}
+.main-name { text-align:center;  text-transform:uppercase; font-weight:800; font-size:1.3em; letter-spacing:0.1em; height:40px; line-height:40px; width:200px; margin:auto; height:40px; 
+}
+.main-name a { padding:20px; color:#000; 
+}
+.main-name a:hover { color:#e6af61; 
+}
+article { width:100%; position: inherit; display: block; 
+}
+article p { margin-bottom:25px; 
+}
+aside p { margin-bottom:25px; 
+}
+aside { width:100%%; 
+}   	
+.container { margin:0 auto; padding:20px; 
+}
+header .container { max-width:1200px; 
+}
+footer .container { max-width:1200px; 
+}
