@@ -21,13 +21,13 @@ header {
 
 .main-name a { 
   padding:20px; 
-  color:#000; 
+  color:#000000; 
   text-decoration: none;
 }
 
 .main-name a:hover { 
-  color:#e6af61; t
-  ext-decoration: none;
+  color:#CC0000; 
+  text-decoration: none;
 }
 
 #name {
