@@ -60,6 +60,13 @@ header {
     text-align: center;
 }
 
+#intro h2 {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
    
 /* =============================================================================
    Next Area
