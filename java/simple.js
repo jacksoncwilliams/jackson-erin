@@ -1,6 +1,6 @@
 // JavaScript Document
 
-$(".moreinfo").click(function(e){
+$(".more").click(function(e){
   var_this = $($(this).attr("href"));
   $("body, html").animate({
     scrollTop: _this.offset().top -72
