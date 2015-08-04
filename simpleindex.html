@@ -51,6 +51,17 @@ title: Jackson Williams
 
 
 
-<script src="http://code.jquery.com/jquery.min.js"></script>
-<script src="http://www.jacksoncwilliams.com/java/simple.js" type="text/javascript"</script>
+<script src="//ajax.googleapis.com/ajax/lib/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+            $(function()  {
+                        $('a[href="#moreinfo"]').click(function(e)  {
+                                    e.preventDefault();
+                                    var targetOffset = $('a[name="moreinfo"]').offset().top;
+                                    $('body').animate(
+                                                {scrollTop: targetOffset},
+                                                1000
+                                    );
+                        });
+            });
+</script>
       
