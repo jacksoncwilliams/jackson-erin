@@ -22,8 +22,8 @@ title: Jackson Williams
             </div>
 </section>            
 
-<a name="moreinfo"></a>      
 <section id="moreinfo">
+<a name="moreinfo"></a>
 
             <div class="container">
                         <div class="four columns">
@@ -58,7 +58,7 @@ title: Jackson Williams
             $(function()  {
                         $('a[href="#moreinfo"]').click(function(e)  {
                                     e.preventDefault();
-                                    var targetOffset = $('a[name="moreinfo"]').offset().top;
+                                    var targetOffset = $('section[id="moreinfo"]').offset().top;
                                     $('body').animate(
                                                 {scrollTop: targetOffset},
                                                 1000
