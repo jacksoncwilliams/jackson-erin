@@ -15,14 +15,14 @@ title: Jackson Williams
             
             <div class="container">
                 <div class="two columns offset-by-five columns">
-                      <a href="#moreinfo" id="morebutton">
-                            <h1>More</h1>
+                      <a class="about" href="#about">
+                            <h1>About</h1>
                       </a>
                  </div>
             </div>
 </section>            
 
-<section id="moreinfo">
+<section id="about">
             <div class="container">
                         <div class="four columns">
                                     <h1> hello <a href="http://www.w3schools.com/html/">Visit our HTML tutorial</a> </h1>
@@ -53,15 +53,16 @@ title: Jackson Williams
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript">
-            $(function()  {
-                        $('a[href="#moreinfo"]').click(function(e)  {
-                                    e.preventDefault();
-                                    var targetOffset = $('section[id="moreinfo"]').offset().top;
-                                    $('body').animate(
-                                                {scrollTop: targetOffset},
-                                                1000
-                                    );
-                        });
-            });
+            var $root = $('html, body');
+$('a').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+            
+            
+            
+         
 </script>
       
