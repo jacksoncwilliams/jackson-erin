@@ -68,18 +68,18 @@ header {
     text-align: center;
 }
 
-.aboutbutton h1:a { 
+.homebuttons h1:a { 
   color:#ffffff; 
   text-decoration: none;
 }
 
-.aboutbutton h1:hover {
+.homebuttons h1:hover {
    background: none repeat scroll 0 0 #434343;
    transition: background-color 0.2s linear 0s;
    text-decoration: none;
 }
 
-.aboutbutton h1 {
+.homebuttons h1 {
    text-align: center;
    background: none repeat scroll 0 0 #CC0000;
    border-radius: 2px;
@@ -110,7 +110,7 @@ body {
    background-color: #000000;
 }
 /* =============================================================================
-   More Info
+   About
    ========================================================================== */
 #about {
    background-color: #ffffff;
