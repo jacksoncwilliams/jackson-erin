@@ -68,18 +68,18 @@ header {
     text-align: center;
 }
 
-.homebuttons h1:a { 
+#intro .homebuttons h3:a { 
   color:#ffffff; 
   text-decoration: none;
 }
 
-.homebuttons h1:hover {
+#intro .homebuttons h3:hover {
    background: none repeat scroll 0 0 #434343;
    transition: background-color 0.2s linear 0s;
    text-decoration: none;
 }
 
-.homebuttons h1 {
+#intro .homebuttons h3 {
    text-align: center;
    background: none repeat scroll 0 0 #CC0000;
    border-radius: 2px;
