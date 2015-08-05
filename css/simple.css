@@ -68,8 +68,9 @@ header {
     text-align: center;
 }
 
-#morebutton a { 
-   color:#ffffff; 
+#morebutton h1:hover {
+   background: none repeat scroll 0 0 #434343;
+   transition: background-color 0.2s linear 0s;
    text-decoration: none;
 }
 
