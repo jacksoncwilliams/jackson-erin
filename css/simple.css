@@ -68,8 +68,9 @@ header {
     text-align: center;
 }
 
-#morebutton {
-   
+#morebutton a { 
+   color:#ffffff; 
+   text-decoration: none;
 }
 
 #morebutton h1 {
