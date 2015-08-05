@@ -114,12 +114,12 @@ body {
    About
    ========================================================================== */
 #about {
-   background-color: #ffffff;
+   background-color: #343434;
    float: left;
    padding-bottom: 40px;
    width: 100%;
    height: 600px;
-   padding-top: 12%;
+   padding-top: 5%;
 }
 
 #about h1 {
