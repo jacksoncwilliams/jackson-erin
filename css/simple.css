@@ -120,13 +120,13 @@ body {
    float: left;
    padding-bottom: 40px;
    width: 100%;
-   height: 600px;
+   height: 1200px;
    padding-top: 5%;
 }
 
 #about h1 {
     color: #ffffff;
-    font-size: 2.1em;
+    font-size: 3.1em;
     font-weight: 400;
     letter-spacing: 0.1em;
     text-align: center;
@@ -134,7 +134,7 @@ body {
 
 #about p {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 2.1em;
     font-weight: 400;
     letter-spacing: 0.1em;
     text-align: left;
