@@ -74,7 +74,26 @@ header {
 
 #morebutton h1 {
    text-align: center;
+   background: none repeat scroll 0 0 #e6af61;
+   border-radius: 2px;
+   color: #fff;
+   font-size: 0.85em;
+   font-weight: 800;
+   height: 30px;
+   letter-spacing: 0.15em;
+   line-height: 30px;
+   margin: 30px auto 0;
+   text-align: center;
+   text-transform: uppercase;
+   transition: background-color 0.2s linear 0s;
+   width: 80px;
 }
+*::-moz-selection {
+    background: none repeat scroll 0 0 #e6af61;
+    color: #fff;
+    text-shadow: none;
+}
+
    
 /* =============================================================================
    Next Area
