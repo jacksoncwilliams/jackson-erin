@@ -68,17 +68,17 @@ header {
     text-align: center;
 }
 
-#more button h1:a { 
+#about h1:a { 
   color:#ffffff; 
   text-decoration: none;
 }
-#morebutton h1:hover {
+#about h1:hover {
    background: none repeat scroll 0 0 #434343;
    transition: background-color 0.2s linear 0s;
    text-decoration: none;
 }
 
-#morebutton h1 {
+#about h1 {
    text-align: center;
    background: none repeat scroll 0 0 #CC0000;
    border-radius: 2px;
