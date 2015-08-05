@@ -114,7 +114,8 @@ body {
    About
    ========================================================================== */
 #about {
-   background: url("/images/aboutbackground.png") repeat scroll center center;
+   background: url("/images/aboutbackgroundtop.png") repeat-x,
+               url("/images/aboutbackground.png") repeat scroll center center;
    background-color: #343434;
    float: left;
    padding-bottom: 40px;
