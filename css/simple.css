@@ -67,6 +67,7 @@ header {
     font-weight: 400;
     letter-spacing: 0.1em;
     text-align: center;
+    padding-top: 10%;
 }
 
 #intro .homebuttons h3:a { 
