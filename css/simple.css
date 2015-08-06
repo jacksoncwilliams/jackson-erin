@@ -67,7 +67,6 @@ header {
     font-weight: 400;
     letter-spacing: 0.1em;
     text-align: center;
-    padding-top: 10%;
 }
 
 #intro .homebuttons h3:a { 
@@ -81,7 +80,7 @@ header {
    text-decoration: none;
 }
 
-#intro .homebuttons h3 {
+#intro .homebuttons {
    text-align: center;
    background: none repeat scroll 0 0 #CC0000;
    border-radius: 2px;
@@ -97,6 +96,7 @@ header {
    text-decoration: none;
    transition: background-color 0.2s linear 0s;
    width: 80px;
+   padding-top: 10%;
 }
 *::-moz-selection {
     background: none repeat scroll 0 0 #e6af61;
