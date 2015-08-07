@@ -2,7 +2,6 @@
    Header Name Area
    ========================================================================== */
 header { 
-  height:auto; 
   width:100%; 
   background:#fff; 
   overflow:hidden; 
@@ -31,7 +30,7 @@ header {
 
 #name {
    position: absolute;
-   top: 20%;
+   top: 25%;
    height:auto;
    width: 100%;
 }
