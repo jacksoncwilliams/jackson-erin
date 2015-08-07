@@ -99,11 +99,11 @@ header {
 }
 
 #intro .spacingtitle div {
-   vertical-align: bottom;
+   vertical-align: sub;
 }
 
 #intro .spacingsubtitle div {
-   vertical-align: top;
+   vertical-align: super;
 }
 
 *::-moz-selection {
