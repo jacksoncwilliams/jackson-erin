@@ -98,7 +98,7 @@ header {
    width: 80px;
 }
 
-#intro .spacing {
+#intro .spacing div {
    margin: -30px;
 }
 *::-moz-selection {
