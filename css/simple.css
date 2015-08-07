@@ -98,9 +98,14 @@ header {
    width: 80px;
 }
 
-#intro .spacing div {
+#intro .spacingtitle div {
+   margin-bottom: -30px;
+}
+
+#intro .spacingsubtitle div {
    margin-top: -30px;
 }
+
 *::-moz-selection {
     background: none repeat scroll 0 0 #e6af61;
     color: #fff;
