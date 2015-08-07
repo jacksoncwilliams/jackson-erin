@@ -104,15 +104,6 @@ header {
     text-shadow: none;
 }
 
-hr {
-   display: block;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-left: auto;
-   margin-right: auto;
-   border-style: inset;
-    border-width: 1px;
-}
    
 /* =============================================================================
    Next Area
