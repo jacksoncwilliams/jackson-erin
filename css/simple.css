@@ -35,8 +35,6 @@ header {
    top: 40%;
    height:auto;
    width: 100%;
-   
-   
 }
 
 /* =============================================================================
@@ -96,6 +94,14 @@ header {
    text-decoration: none;
    transition: background-color 0.2s linear 0s;
    width: 80px;
+}
+
+#intro .spacingtitle div {
+   height: auto;
+}
+
+#intro .spacingsubtitle div {
+   height: auto;
 }
 
 *::-moz-selection {
