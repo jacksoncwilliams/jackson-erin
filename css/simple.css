@@ -103,7 +103,7 @@ header {
 }
 
 #intro .spacingsubtitle div {
-   vertical-align: super;
+   vertical-align: -20px;
 }
 
 *::-moz-selection {
