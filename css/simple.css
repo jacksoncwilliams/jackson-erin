@@ -98,20 +98,21 @@ header {
    width: 80px;
 }
 
-#intro .spacingtitle div {
-   vertical-align: -10px;
-}
-
-#intro .spacingsubtitle div {
-   vertical-align: 10px;
-}
-
 *::-moz-selection {
     background: none repeat scroll 0 0 #e6af61;
     color: #fff;
     text-shadow: none;
 }
 
+hr {
+   display: block;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: inset;
+    border-width: 1px;
+}
    
 /* =============================================================================
    Next Area
