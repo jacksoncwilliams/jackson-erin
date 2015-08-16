@@ -170,7 +170,7 @@ body {
     
 }
 
-#resume h2 {
+#resume p .alignleft {
     color: #000000;
     font-family: UniversRoman;
     font-size: 1em;
@@ -179,7 +179,7 @@ body {
     float: left;
 }
 
-#resume h3 {
+#resume h2 .alignright {
     color: #c0c0c0;
     font-family: UniversRoman;
     font-size: 1em;
