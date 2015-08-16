@@ -185,6 +185,7 @@ body {
     font-weight: bold;
     letter-spacing: 0.1em;
     text-align: right;
+    display: inline;
 }
 /* =============================================================================
    Contact
