@@ -167,6 +167,7 @@ body {
     font-weight: bold;
     letter-spacing: 0.1em;
     text-align: right;
+    
 }
 
 #resume h2 {
@@ -176,6 +177,7 @@ body {
     font-weight: normal;
     letter-spacing: 0.1em;
     text-align: left;   
+    display: inline;
 }
 
 #resume h3 {
