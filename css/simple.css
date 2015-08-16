@@ -176,8 +176,7 @@ body {
     font-size: 1em;
     font-weight: normal;
     letter-spacing: 0.1em;
-    text-align: left;   
-    display: inline;
+    float: left;
 }
 
 #resume h3 {
@@ -186,8 +185,7 @@ body {
     font-size: 1em;
     font-weight: bold;
     letter-spacing: 0.1em;
-    text-align: right;
-    display: inline;
+    float: right;
 }
 /* =============================================================================
    Contact
