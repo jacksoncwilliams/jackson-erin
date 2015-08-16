@@ -161,31 +161,36 @@ body {
 }
 
 #resume h1 {
-    color: #c0c0c0;
-    font-family: UniversRoman;
-    font-size: 1em;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    text-align: right;
-    
+   color: #c0c0c0;
+   font-family: UniversRoman;
+   font-size: 1em;
+   font-weight: bold;
+   letter-spacing: 0.1em;
+   text-align: right;
 }
 
-#resume p .alignleft {
-    color: #000000;
-    font-family: UniversRoman;
-    font-size: 1em;
-    font-weight: normal;
-    letter-spacing: 0.1em;
-    float: left;
+#resume p {
+   color: #000000;
+   font-family: UniversRoman;
+   font-size: 1em;
+   font-weight: normal;
+   letter-spacing: 0.1em;
 }
 
-#resume h2 .alignright {
-    color: #c0c0c0;
-    font-family: UniversRoman;
-    font-size: 1em;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    float: right;
+#resume .alignright {
+   float:right;
+}
+
+#resume .alignleft {
+   float:left;
+}
+
+#resume h2 {
+   color: #c0c0c0;
+   font-family: UniversRoman;
+   font-size: 1em;
+   font-weight: bold;
+   letter-spacing: 0.1em;
 }
 /* =============================================================================
    Contact
