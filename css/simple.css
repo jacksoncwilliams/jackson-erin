@@ -177,6 +177,15 @@ body {
     letter-spacing: 0.1em;
     text-align: left;   
 }
+
+#resume h3 {
+    color: #c0c0c0;
+    font-family: UniversRoman;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: right;
+}
 /* =============================================================================
    Contact
    ========================================================================== */
