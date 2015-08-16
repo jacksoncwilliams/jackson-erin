@@ -157,19 +157,25 @@ body {
    padding-bottom: 40px;
    width: 100%;
    height: 600px;
-   padding-top: 12%;
+   padding-top: 3%;
 }
 
 #resume h1 {
-    color: #000000;
-    font-size: 2.1em;
-    font-weight: 400;
+    color: #c0c0c0;
+    font-family: UniversRoman;
+    font-size: 1em;
+    font-weight: bold;
     letter-spacing: 0.1em;
-    text-align: center;
+    text-align: right;
 }
 
 #resume h2 {
-   
+    color: #000000;
+    font-family: UniversRoman;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: left;   
 }
 /* =============================================================================
    Contact
