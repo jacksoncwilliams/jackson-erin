@@ -160,6 +160,9 @@ body {
    height: auto;
    padding-top: 3%;
 }
+#resume a {
+   color: #CC0000;
+}
 
 @media (min-width: 400px) {
    #resume h1 {
@@ -172,7 +175,7 @@ body {
       margin-left: 0%;
    }
    .date {
-      
+      color: #c0c0c0
    }
 }
 
@@ -188,6 +191,7 @@ body {
    }
    .date {
       float: right;
+      color: #c0c0c0
    }
 }
 
