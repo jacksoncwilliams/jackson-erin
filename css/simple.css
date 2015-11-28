@@ -172,8 +172,7 @@ body {
       margin-left: 0%;
    }
    .date {
-      float: left;
-      padding-left: zero;
+      
    }
 }
 
@@ -189,13 +188,11 @@ body {
    }
    .date {
       float: right;
-      padding-left: 50px;
    }
 }
 
 #resume .ten.columns {
-   width: 86.6666666667%
-   margin-left: 0;
+   margin-left: -10px;
 }
 
 #resume p {
