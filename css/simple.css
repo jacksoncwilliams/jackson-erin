@@ -169,7 +169,7 @@ body {
       font-weight: bold;
       letter-spacing: 0.1em;
       text-align: center;
-      margin-left: zero;
+      margin-left: 0%;
    }
    .date {
       float: left;
@@ -193,6 +193,10 @@ body {
    }
 }
 
+#resume .ten.columns {
+   width: 86.6666666667%
+   margin-left: 0;
+}
 
 #resume p {
    color: #000000;
