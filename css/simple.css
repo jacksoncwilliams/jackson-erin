@@ -173,7 +173,7 @@ body {
    }
    .date {
       float: left;
-      padding: zero;
+      padding-left: zero;
    }
 }
 
@@ -185,11 +185,11 @@ body {
       font-weight: bold;
       letter-spacing: 0.1em;
       text-align: right;
-      margin-left: zero;
+      margin-left: 0;
    }
    .date {
       float: right;
-      padding: zero;
+      padding-left: 10px;
    }
 }
 
