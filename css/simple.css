@@ -183,6 +183,11 @@ body {
    }
 }
 
+.date {
+   float: right;
+   padding: zero;
+}
+
 #resume p {
    color: #000000;
    font-family: UniversRoman;
