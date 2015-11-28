@@ -162,7 +162,7 @@ body {
 }
 
 @media (min-width: 400px) {
-   #resume p {
+   #resume h1 {
       color: #c0c0c0;
       font-family: UniversRoman;
       font-size: 1em;
@@ -177,7 +177,7 @@ body {
 }
 
 @media (min-width: 550px) {
-   #resume p {
+   #resume h1 {
       color: #c0c0c0;
       font-family: UniversRoman;
       font-size: 1em;
@@ -195,7 +195,7 @@ body {
    margin-left: -10px;
 }
 
-#resume p1 {
+#resume p {
    color: #000000;
    font-family: UniversRoman;
    font-size: 1em;
