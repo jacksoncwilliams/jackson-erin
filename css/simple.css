@@ -151,6 +151,7 @@ body {
    Resume
    ========================================================================== */
    
+
 #resume {
    background-color: #ffffff;
    float: left;
@@ -160,13 +161,26 @@ body {
    padding-top: 3%;
 }
 
-#resume h1 {
-   color: #c0c0c0;
-   font-family: UniversRoman;
-   font-size: 1em;
-   font-weight: bold;
-   letter-spacing: 0.1em;
-   text-align: right;
+@media (min-width: 400px) {
+   #resume h1 {
+      color: #c0c0c0;
+      font-family: UniversRoman;
+      font-size: 1em;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      text-align: center;
+   }
+}
+
+@media (min-width: 550px) {
+   #resume h1 {
+      color: #c0c0c0;
+      font-family: UniversRoman;
+      font-size: 1em;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      text-align: right;
+   }
 }
 
 #resume p {
