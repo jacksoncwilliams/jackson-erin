@@ -54,12 +54,9 @@
     width: 80%; }
   .column,
   .columns {
-    margin-left: 0%; }
+    margin-left: 4%; }
   .column:first-child,
   .columns:first-child {
-    margin-left: 0; }
-  .column:second-child,
-  .columns:second-child {
     margin-left: 0; }
 
   .one.column,
