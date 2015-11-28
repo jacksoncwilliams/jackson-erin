@@ -191,13 +191,6 @@ body {
    letter-spacing: 0.1em;
 }
 
-#resume .alignright {
-   float:right;
-}
-
-#resume .alignleft {
-   float:left;
-}
 
 #resume h2 {
    color: #c0c0c0;
