@@ -169,6 +169,10 @@ body {
       font-weight: bold;
       letter-spacing: 0.1em;
       text-align: center;
+      margin-left: zero;
+   }
+   .date {
+      float: left;
       padding: zero;
    }
 }
@@ -181,14 +185,14 @@ body {
       font-weight: bold;
       letter-spacing: 0.1em;
       text-align: right;
+      margin-left: zero;
+   }
+   .date {
+      float: right;
       padding: zero;
    }
 }
 
-.date {
-   float: right;
-   padding: zero;
-}
 
 #resume p {
    color: #000000;
