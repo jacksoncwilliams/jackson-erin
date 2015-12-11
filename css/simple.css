@@ -207,6 +207,8 @@ body {
    font-size: 1em;
    font-weight: normal;
    letter-spacing: 0.1em;
+   margin-top: 0;
+   padding: zero;
 }
 
 
@@ -232,9 +234,7 @@ body {
    margin-bottom: 0;
 }
 
-#resume p {
-   margin-top: 0;
-   padding: zero;
+
    
 /* =============================================================================
    Contact
