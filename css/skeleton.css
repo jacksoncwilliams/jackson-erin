@@ -303,17 +303,17 @@ ol ul {
 li {
   margin-bottom: none; }
   
-ul {
+ul ol {
     counter-reset: foo;
     display: table;
 }
 
-ul > li {
+ul ol > li {
     counter-increment: foo;
     display: table-row;
 }
 
-ul > li::before {
+ul ol > li::before {
     content: counter(foo) ".";
     display: table-cell; /* aha! */
     text-align: right;
