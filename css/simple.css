@@ -201,10 +201,10 @@ body {
 
 #resume p {
    color: #000000;
-   font-family: UniversRoman;
-   font-size: 1em;
-   font-weight: normal;
-   letter-spacing: 0.1em;
+   font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-size: 1 em;
+   font-weight: 400;
+   line-height: 1.6;
    padding: 0;
    margin-top: 0;
    margin-bottom: 0;
@@ -239,7 +239,14 @@ body {
 
 #resume hr { 
    height:1rem; 
-   visibility:hidden; 
+   visibility:hidden;
+}
+
+#resume ul {
+   font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-size: 1em;
+   font-weight: 400;
+   line-height: 1.6;
 }
    
 /* =============================================================================
