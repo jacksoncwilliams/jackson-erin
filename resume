@@ -1,0 +1,115 @@
+---
+layout: simple
+title: Jackson Williams Resumé
+---
+
+<!--Content-->
+<section id="resume">
+            <div class="container education">
+                        <div class="two columns">
+                                <h1>Education</h1>
+                        </div>
+  
+                        <div class="ten columns">
+                                <h2>
+                                        <a href="http://www.ncsu.edu">North Carolina State University</a>
+                                        <div class="date">2014-2018</div>
+                                </h2>
+                                <p>
+                                        B.S. Electrical Engineering: Renewable Electric Energy Systems Concentration
+                                        <br/>
+                                        Minor: Sustainable Energy
+                                        <br/>
+                                        GPA: 3.495
+                                </p>
+                                    
+                                <hr>
+                                
+                                <h2>
+                                        <a href="http://grimsley.gcsnc.com/pages/Grimsley_High">Grimsley High School</a>
+                                        <div class="date">2010-2014</div>
+                                </h2>
+                                <p>
+                                        GPA: 4.27
+                                </p>
+                        </div>
+
+            </div>
+            
+            
+
+            <div class="container experience">
+                        <div class="two columns">
+                                    <h1>Experience</h1>
+                        </div>
+  
+                        <div class="ten columns">
+                                <h2>
+                                        <a href="https://sustainability.ncsu.edu/get-involved/nc-state-stewards/">NC State Sustainability Office, <em>Raleigh, NC</em></a>
+                                        <div class="date">October 2014 - Present</div>
+                                </h2>
+                                <h3>
+                                        Steward
+                                </h3>
+                                <p> 
+                                        <ul>
+                                                <li>Serve alongside Sustainability Office to educate students, 
+                                                inspire behavior change, and implement campus projects, all in order to 
+                                                promote sustainability and mitigate climate change effects</li>
+                                                <li>Recent project included bringing a solar powered outdoor shelter to
+                                                NCSU’s Central Campus. The endeavor encompassed analyzing solar energy 
+                                                potential among different locations, designing the structure, researching 
+                                                the output of energy needed to meet projected demands,and writing a $25,000 
+                                                dollar grant proposal</li>
+                                                <li>Gained experience in the grant writing process and the policies that go into 
+                                                University installations</li>
+                                                <li>Experience as a whole has broadened my knowledge of sustainability, 
+                                                especially outside of the energy field</li>
+                                        </ul>
+                                </p>
+                                    
+                                <hr>
+                                    
+                                <h2>
+                                        Energizer, <em>Asheboro, NC</em>
+                                        <div class="date">Summer 2015</div>
+                                </h2>
+                                <h3>
+                                        Engineering Intern
+                                </h3>
+                                        <ul>
+                                                <li>Worked alongside Energizer Battery Manufacturing Engineering Team to produce high quality
+                                                batteries and the lowest possible cost</li>
+                                                <li>Projects included: diagnosing pneumatic conveying irregularities, office restructuring, improving
+                                                line efficiencies by recommending various machine relocations, numerous data reports detailing 
+                                                plant activity and project progress</li>
+                                                <li>Increased pneumatic conveying process efficiency by 179%</li>
+                                                <li>Developed critical Project Management skills including how to properly draft scope documents
+                                                and proper work breakdown structures for high level projects</li>
+                                        </ul>
+                                    
+
+                                    
+                        </div>
+            </div>
+            
+            
+
+            <div class="container honors">
+                        <div class="two columns">
+                                    <h1>Honors & Awards</h1>
+                        </div>
+  
+                        <div class="ten columns">
+                                    <p>         &#8226 Eagle Scout Award &#8226
+                                                Guilford County Schools Service Learning Diploma Recipient &#8226 
+                                                National Honor Society President &#8226 
+                                                Scholar Athlete Award &#8226 
+                                                Academic Excellence with Special Honors &#8226 
+                                                Two-time Science Olympiad Silver Medalist &#8226 
+                                                AP Scholar &#8226
+                                    </p>
+                        </div>
+            </div>
+            
+</section>
