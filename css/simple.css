@@ -237,8 +237,10 @@ body {
    margin-bottom: 2.5rem;
 }
 
-#resume br {
-   line-height: .5rem;
+#resume hr { 
+   height:2px; 
+   visibility:hidden; 
+   margin-bottom:-1px; 
 }
    
 /* =============================================================================
