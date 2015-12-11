@@ -288,7 +288,9 @@ label > .label-body {
 /* Lists
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 ul {
-  list-style: square outside; }
+  list-style: square outside; 
+  margin-left: 1em;
+}
 ol {
   list-style: decimal inside; }
 ol, ul {
