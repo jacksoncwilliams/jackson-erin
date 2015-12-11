@@ -273,8 +273,7 @@ body {
    ========================================================================== */
    
 #contact {
-    background: url("/images/aboutbackgroundtop.png") repeat-x,
-                url("/images/aboutbackground.png") repeat scroll center center;
+   background: url("/images/wind-turbines.jpg") no-repeat scroll center center / cover #c0c0c0;
    background-color: #343434;;
    float: left;
    padding-bottom: 40px;
