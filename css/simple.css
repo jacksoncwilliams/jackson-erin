@@ -197,9 +197,7 @@ body {
    }
 }
 
-#resume .ten.columns {
-   
-}
+
 
 #resume p {
    color: #000000;
@@ -239,7 +237,9 @@ body {
    margin-bottom: 2.5rem;
 }
 
-
+#resume br {
+   line-height: 2px;
+}
    
 /* =============================================================================
    Contact
