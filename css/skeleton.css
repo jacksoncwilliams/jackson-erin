@@ -288,7 +288,7 @@ label > .label-body {
 /* Lists
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 ul {
-  list-style: square inside; }
+  list-style: square outside; }
 ol {
   list-style: decimal inside; }
 ol, ul {
@@ -302,22 +302,7 @@ ol ul {
   font-size: 90%; }
 li {
   margin-bottom: none; }
-  
-ul ol {
-    counter-reset: foo;
-    display: table;
-}
 
-ul ol > li {
-    counter-increment: foo;
-    display: table-row;
-}
-
-ul ol > li::before {
-    content: counter(foo) ".";
-    display: table-cell; /* aha! */
-    text-align: right;
-}
 
 /* Code
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
