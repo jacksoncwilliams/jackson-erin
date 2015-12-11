@@ -269,7 +269,7 @@ title: Jackson Williams
                         
                         <div class="four columns">
                                     <p>
-                                                <a href="JacksonWilliamsMasterResumé.pdf"><img src="images/Adobe_PDF_file_icon_24x24.png" alt="Download Full Resumé" style="width:18px;height:18px;">Download Full Resumé</a> 
+                                                <a href="JacksonWilliamsMasterResumé.pdf" download><img src="images/Adobe_PDF_file_icon_24x24.png" alt="Download Resumé" style="width:18px;height:18px;">Download Full Resumé</a> 
                                     </p>
                         </div>
                         
@@ -298,21 +298,6 @@ title: Jackson Williams
                         </div>
             </div>
 </section>
-
-<?php 
-            $file_url = 'JacksonWilliamsResumé.pdf';
-
-            header('Content-Type: application/octet-stream');
-
-            header("Content-Transfer-Encoding: Binary");
-
-            header("Content-disposition: attachment; filename=\"" . basename($file_url) . "\"");
-
-            readfile($file_url);
-
-            exit(); 
-?> 
-      
 
 
 
