@@ -189,7 +189,7 @@ body {
       letter-spacing: 0.1em;
       text-align: right;
       margin-left: 0;
-      margin-top: 0;
+      margin-top: 1rem;
    }
    .date {
       float: right;
