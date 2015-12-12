@@ -282,6 +282,11 @@ body {
    padding-top: 5%;
 }
 
+#contact .icons {
+   height: 25px;
+   width: 25px;
+}
+
 #contact h1 {
     color: #ffffff;
     font-size: 1.5em;
@@ -289,7 +294,3 @@ body {
     letter-spacing: 0.1em;
     text-align: center;
 
-#contact .icons {
-   height: 25px;
-   width: 50px;
-}
