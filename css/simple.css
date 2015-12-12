@@ -288,3 +288,8 @@ body {
     font-weight: 400;
     letter-spacing: 0.1em;
     text-align: center;
+
+#contact .icons {
+   height: 25px;
+   width: 50px;
+}
