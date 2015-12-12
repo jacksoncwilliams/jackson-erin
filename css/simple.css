@@ -282,22 +282,22 @@ body {
    padding-top: 5%;
 }
 
+#contact .icons a {
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
+
+#contact .icons a:hover {
+   -webkit-filter: grayscale(0%);
+   filter: grayscale(0%)
+}
+
 #contact .icons {
    height: 60px;
    width: 60px;
    display: block;
    margin-left: auto;
    margin-right: auto;
-}
-
-#contact .icons a {
-   -webkit-filter: grayscale(100%);
-   filter: grayscale(100%)
-}
-
-#contact .icons a:hover {
-   -webkit-filter: grayscale(0%);
-   filter: grayscale(0%)
 }
 
 #contact h1 {
