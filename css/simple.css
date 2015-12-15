@@ -321,5 +321,10 @@ body {
    padding-bottom: 40px;
    width: 100%;
    height: auto;
-   padding-top: 5%;
+   padding-top: 0;
+   text-align: center;
+}
+
+#footer p {
+   color: #FFFF;
 }
