@@ -326,5 +326,7 @@ body {
 }
 
 #footer p {
+   font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;  
+   font-size: 1em;
    color: #FFFFFF;
 }
