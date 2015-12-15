@@ -169,7 +169,7 @@ body {
    color: #CC0000;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
    #resume h1 {
       color: #c0c0c0;
       font-family: "UniversRoman";
