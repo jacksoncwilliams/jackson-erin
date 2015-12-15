@@ -45,13 +45,13 @@ header {
    width: 100%;
    height: 600px;
    padding-top: 12%;
-   font-family: UniversRoman;
    
 }
 
 #intro h1 {
     margin: 0;
     color: #ffffff;
+    font-family: "UniversRoman";
     font-size: 2.1em;
     font-weight: 400;
     letter-spacing: 0.1em;
@@ -61,6 +61,7 @@ header {
 #intro h2 {
     margin: 0;
     color: #ffffff;
+    font-family: "UniversRoman";
     font-size: 1em;
     font-weight: 400;
     letter-spacing: 0.1em;
@@ -79,6 +80,7 @@ header {
 }
 
 #intro .homebuttons h3 {
+   font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;  
    text-align: center;
    background: none repeat scroll 0 0 #CC0000;
    border-radius: 2px;
