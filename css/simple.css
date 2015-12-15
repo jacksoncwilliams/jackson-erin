@@ -45,6 +45,7 @@ header {
    width: 100%;
    height: 600px;
    padding-top: 12%;
+   font-family: "UniversRoman";
    
 }
 
@@ -133,6 +134,7 @@ body {
 }
 
 #about h1 {
+    font-family: "UniversRoman";
     color: #ffffff;
     font-size: 2.1em;
     font-weight: 400;
@@ -141,6 +143,7 @@ body {
 }
 
 #about p {
+    font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #ffffff;
     font-size: 1em;
     font-weight: 400;
@@ -167,7 +170,7 @@ body {
 @media (min-width: 400px) {
    #resume h1 {
       color: #c0c0c0;
-      font-family: UniversRoman;
+      font-family: "UniversRoman";
       font-size: 1em;
       font-weight: bold;
       letter-spacing: 0.1em;
@@ -183,7 +186,7 @@ body {
 @media (min-width: 550px) {
    #resume h1 {
       color: #c0c0c0;
-      font-family: UniversRoman;
+      font-family: "UniversRoman";
       font-size: 1em;
       font-weight: bold;
       letter-spacing: 0.1em;
@@ -213,7 +216,7 @@ body {
 
 #resume h2 {
    color: #CC0000;
-   font-family: UniversRoman;
+   font-family: "UniversRoman";
    font-size: 1em;
    font-weight: bold;
    letter-spacing: 0.1em;
@@ -224,7 +227,7 @@ body {
 
 #resume h3 {
    color: #000;
-   font-family: UniversRoman;
+   font-family: "UniversRoman";
    font-size: 1em;
    font-weight: bold;
    letter-spacing: 0.1em;
@@ -298,7 +301,7 @@ body {
 }
 
 #contact h1 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: "UniversRoman";
     color: #ffffff;
     font-size: 2em;
     font-weight: 400;
