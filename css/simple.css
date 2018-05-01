@@ -13,7 +13,7 @@
 
 #intro h1 {
     margin: 0;
-    color: #ffffff;
+    color: #000000;
     font-family: "UniversRoman";
     font-size: 2.1em;
     font-weight: 400;
@@ -23,7 +23,7 @@
 
 #intro h2 {
     margin: 0;
-    color: #ffffff;
+    color: #000000;
     font-family: "UniversRoman";
     font-size: 1em;
     font-weight: 400;
@@ -66,7 +66,7 @@ line-height: 1em;
   position: relative;
   outline: 0;
   border: 0;
-  color: white;
+  color: black;
   text-align: center;
   height: 1.5em;
   opacity: 0.5;
@@ -84,7 +84,7 @@ line-height: 1em;
   content: attr(data-content);
   position: relative;
   display: inline-block;
-  color: white;
+  color: black;
   padding: 0 0.5em;
   line-height: 1.5em;
   color: #FFFFFF;
