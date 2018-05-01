@@ -1,41 +1,4 @@
 /* =============================================================================
-   Header Name Area
-   ========================================================================== */
-header { 
-  width:100%; 
-  background:#fff; 
-  overflow:hidden; 
-  height: 90px;
-  position: relative;
-}
-
-.main-name { 
-  font-family: 'Libre Baskerville', serif;
-  text-align:center;  
-  text-transform:uppercase; 
-  text-decoration: none; 
-  font-weight:800; 
-  font-size:1.3em; 
-}
-
-.main-name a { 
-  color:#000000; 
-  text-decoration: none;
-}
-
-.main-name a:hover { 
-  color:#CC0000; 
-  text-decoration: none;
-}
-
-#name {
-   position: absolute;
-   top: 25%;
-   height:auto;
-   width: 100%;
-}
-
-/* =============================================================================
    Intro
    ========================================================================== */
 #intro {
