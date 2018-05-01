@@ -36,10 +36,10 @@
   color:#CC0000;
   text-decoration: none;
   text-align: center;
-  display: inline;
 }
 
 .navigation ul li a {
+  display: inline;
   line-height: 49px;
   padding:  0 14px;
   color: black;
