@@ -62,7 +62,8 @@
 }
 
 .hr-text {
-line-height: 1em;
+  font-family: Futura, sans-serif; 
+  line-height: 1em;
   position: relative;
   outline: 0;
   border: 0;
