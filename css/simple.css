@@ -32,34 +32,9 @@
    
 }
 
-#intro .homebuttons h3:a { 
-  color:#ffffff; 
+#intro navigation { 
+  color:#CC0000; 
   text-decoration: none;
-}
-
-#intro .homebuttons h3:hover {
-   background: none repeat scroll 0 0 #434343;
-   transition: background-color 0.2s linear 0s;
-   text-decoration: none;
-}
-
-#intro .homebuttons h3 {
-   font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;  
-   text-align: center;
-   background: none repeat scroll 0 0 #CC0000;
-   border-radius: 2px;
-   color: #fff;
-   font-size: .7em;
-   font-weight: bold;
-   height: 30px;
-   letter-spacing: 0.15em;
-   line-height: 30px;
-   margin: 30px auto 0;
-   text-align: center;
-   text-transform: uppercase;
-   text-decoration: none;
-   transition: background-color 0.2s linear 0s;
-   width: 80px;
 }
 
 .hr-text {
