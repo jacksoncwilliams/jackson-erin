@@ -32,16 +32,10 @@
    
 }
 
-
-.navigation ul li{ 
-  color:#CC0000;
-  text-decoration: none;
+.navigation ul li a {
   display: inline-block;
   float: none;
   text-align: center;
-}
-
-.navigation ul li a {
   line-height: 49px;
   padding:  0 14px;
   color: black;
