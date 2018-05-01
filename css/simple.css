@@ -33,8 +33,13 @@
 }
 
 .navigation { 
-  color:#CC0000; 
+  color:#CC0000;
   text-decoration: none;
+}
+
+.navigation ul li {
+  display: inline;
+  position: relative;
 }
 
 .hr-text {
