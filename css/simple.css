@@ -39,6 +39,7 @@
 
 .navigation ul li {
   display: inline;
+  float: left;
   position: relative;
 }
 
@@ -46,7 +47,7 @@
   display: inline-block;
   line-height: 49px;
   padding:  0 14px;
-  color: white;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
