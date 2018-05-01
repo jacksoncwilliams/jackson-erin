@@ -38,8 +38,8 @@
 }
 
 .navigation ul li {
-  display: inline;
-  float: left;
+  display: inline-block;
+  text-align: center;
   position: relative;
 }
 
