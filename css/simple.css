@@ -2,7 +2,7 @@
    Intro
    ========================================================================== */
 #intro {
-   background: url("/images/background-min.JPG") no-repeat scroll center center / cover #c0c0c0;
+   background-color: #FFFFFF
    float: left;
    padding-bottom: 40px;
    width: 100%;
