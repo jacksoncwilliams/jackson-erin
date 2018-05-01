@@ -37,10 +37,15 @@
   text-decoration: none;
 }
 
-.navigation ul li {
+.navigation ul {
   display: inline-block;
   text-align: center;
   position: relative;
+}
+
+.navigation ul li {
+  display: inline;
+  text-align: center;
 }
 
 .navigation ul li a {
