@@ -2,7 +2,7 @@
    Intro
    ========================================================================== */
 #intro {
-   background-color: #FFFFFF
+   background-color: #ffffff
    float: left;
    padding-bottom: 40px;
    width: 100%;
@@ -66,7 +66,7 @@ line-height: 1em;
   position: relative;
   outline: 0;
   border: 0;
-  color: black;
+  color: white;
   text-align: center;
   height: 1.5em;
   opacity: 0.5;
@@ -84,7 +84,7 @@ line-height: 1em;
   content: attr(data-content);
   position: relative;
   display: inline-block;
-  color: black;
+  color: white;
   padding: 0 0.5em;
   line-height: 1.5em;
   color: #FFFFFF;
@@ -110,9 +110,7 @@ body {
    About
    ========================================================================== */
 #about {
-   background: url("/images/aboutbackgroundtop.png") repeat-x,
-               url("/images/aboutbackground.png") repeat scroll center center;
-   background-color: #343434;
+   background-color: #FFFFFF;
    float: left;
    padding-bottom: 40px;
    width: 100%;
