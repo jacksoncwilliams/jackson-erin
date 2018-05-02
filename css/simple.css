@@ -32,10 +32,20 @@
    
 }
 
+.navigation ul { 
+   list-style: none; 
+   position: relative; 
+   float: left; 
+   display: block; 
+   left: 50%; 
+}
+.navigation ul li { 
+   position: relative; 
+   float: left; 
+   display: block; 
+   right: 50%; 
+}
 .navigation ul li a {
-  display: inline-block;
-  float: none;
-  text-align: center;
   line-height: 49px;
   padding:  0 14px;
   color: black;
