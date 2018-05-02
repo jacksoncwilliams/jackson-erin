@@ -32,20 +32,20 @@
    
 }
 
-#nav ul { 
+#navbar ul { 
    list-style: none; 
    position: relative; 
    float: left; 
    display: block; 
    left: 50%; 
 }
-#nav ul li { 
+#navbar ul li { 
    position: relative; 
    float: left; 
    display: block; 
    right: 50%; 
 }
-#nav ul li a {
+#navbar ul li a {
   font-family: 'Great Vibes', cursive; 
   font-size: 2em;
   line-height: 49px;
@@ -54,7 +54,7 @@
   text-decoration: none;
 }
 
-#nav ul li a:hover {
+#navbar ul li a:hover {
   background: #ffffff;
   cursor: pointer;
 }
