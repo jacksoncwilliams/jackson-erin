@@ -33,19 +33,22 @@
 }
 
 #navbar {
-   overflow: hidden;
    background-color: #ffffff
 }
 
 #navbar ul { 
    list-style: none; 
-   position: relative; 
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0
    float: left; 
    display: block; 
    left: 50%; 
 }
 #navbar ul li { 
-   position: relative; 
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0
    float: left; 
    display: block; 
    right: 50%; 
@@ -64,17 +67,10 @@
   cursor: pointer;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-  position: absolute;
-  top: 0;
-  width: 100%
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 100px;
-}
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 
 .hr-text {
   font-family: Futura, sans-serif; 
