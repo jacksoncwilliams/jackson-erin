@@ -7,7 +7,7 @@
    padding-bottom: 40px;
    width: 100%;
    height: auto;
-   padding-top: 12%;
+   padding-top: 10px;
    
 }
 
@@ -111,10 +111,10 @@ body {
 #blank {
    background-color: #ffffff;
    float: left;
-   padding-bottom: 40px;
+   padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 0px;
+   padding-top: 10px;
    
 }
 /* =============================================================================
@@ -125,10 +125,10 @@ body {
                url("/images/aboutbackground.png") repeat scroll center center;
    background-color: #343434;
    float: left;
-   padding-bottom: 20px;
+   padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 30px;
+   padding-top: 10px;
    text-align: center;
 }
 
