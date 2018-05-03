@@ -43,6 +43,7 @@
    position: relative; 
    float: left; 
    display: block; 
+   padding:  0 14px;
    right: 50%; 
 }
 #navbar ul li a {
