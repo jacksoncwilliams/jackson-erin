@@ -42,7 +42,7 @@
    text-align: center;
 }
 #navbar ul {
-   margin-left: 0;
+   padding: 0;
 }
 #navbar li { 
    display: inline;
@@ -108,12 +108,6 @@ body {
    background-color: #FFFFFF;
 }
 
-
-menu,
-ol,
-ul {
-    padding: 0;
-}
 /* =============================================================================
    Footer
    ========================================================================== */
