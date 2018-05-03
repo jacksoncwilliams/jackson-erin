@@ -125,10 +125,10 @@ body {
                url("/images/aboutbackground.png") repeat scroll center center;
    background-color: #343434;
    float: left;
-   padding-bottom: 10px;
+   padding-bottom: 40px;
    width: 100%;
    height: auto;
-   padding-top: 10px;
+   padding-top: 40px;
    text-align: center;
 }
 
