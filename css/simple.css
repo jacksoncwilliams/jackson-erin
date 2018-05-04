@@ -117,6 +117,7 @@ body {
 }
 #blank img{
    display: block;
+   max-width: 960px;
    height: auto;
    width: auto;
 }
