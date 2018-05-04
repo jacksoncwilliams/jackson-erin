@@ -51,11 +51,12 @@
    padding:  0 14px;
 }
 #navbar a {
-   font-family: 'Great Vibes', cursive; 
+   font-family: 'Arial'; 
    font-size: 2em;
    line-height: 49px;
    color: black;
    text-decoration: none;
+   text-transform: uppercase;
 }
 
 #navbar ul li a:hover {
