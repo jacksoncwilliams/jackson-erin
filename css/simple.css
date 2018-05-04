@@ -114,7 +114,10 @@ body {
    width: 100%;
    height: auto;
    padding-top: 10px;
-   
+}
+#blank img{
+   height: auto;
+   width: auto;
 }
 /* =============================================================================
    Footer
