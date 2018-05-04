@@ -42,7 +42,14 @@
    text-align: center;
 }
 #navbar ul {
+   transition: 1s;
    padding: 0;
+   list-style: none;
+   background: rgba(0, 0, 0, 0);
+   overflow: hidden;
+}
+navbar.black ul {
+      background: #000;
 }
 #navbar li { 
    display: inline;
@@ -58,6 +65,18 @@
 
 #navbar ul li a:hover {
   text-decoration: underline;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
 }
 
 
