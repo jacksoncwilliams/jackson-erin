@@ -40,9 +40,8 @@
    margin-right: 0;
    padding: 0;
    text-align: center;
-   position: sticky;
-   top: 0;
 }
+
 #navbar ul {
    padding: 0;
 
@@ -63,6 +62,16 @@
 
 #navbar ul li a:hover {
   text-decoration: underline;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -o-sticky;
+  position: -ms-sticky;
+  position: sticky;
+  top: 10px;
+  z-index: 1;
 }
 
 
