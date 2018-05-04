@@ -116,6 +116,7 @@ body {
    padding-top: 10px;
 }
 #blank img{
+   display: block;
    height: auto;
    width: auto;
 }
