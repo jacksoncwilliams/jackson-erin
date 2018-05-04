@@ -35,6 +35,7 @@
 #navbar { 
    border: 1px solid #ccc;
    border-width: 1px 0;
+   height: 50px;
    list-style: none;
    margin-left: 0;
    margin-right: 0;
