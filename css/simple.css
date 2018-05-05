@@ -67,7 +67,7 @@
    top: 0; /* required */
 }
 #navbar a {
-   font-family: 'Sans-Serif'; 
+   font-family: 'Roboto Condensed', sans-serif;
    font-weight:bold;
    font-size: 1.5em;
    line-height: auto;
