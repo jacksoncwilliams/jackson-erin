@@ -77,23 +77,22 @@
    margin-left: 0;
    margin-right: 0;
    text-align: center;
-
 }
 
-ul {
+#navbar ul {
+   
+}
+
+#navbar ul li {
    padding: 0;
    position: sticky;
    position: -webkit-sticky;
    top: 0; /* required */
-
-}
-
-#navbar li { 
    display: inline;
    padding:  0 14px;
-
 }
-#navbar a {
+
+#navbar ul li a {
    font-family: 'Roboto Condensed', sans-serif;
    font-weight:bold;
    font-size: 1.5em;
@@ -102,6 +101,7 @@ ul {
    text-decoration: none;
    text-transform: uppercase;
 }
+
 
 #navbar ul li a:hover {
   text-decoration: underline;
