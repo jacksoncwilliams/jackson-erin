@@ -68,6 +68,7 @@
 }
 #navbar a {
    font-family: 'Sans-Serif'; 
+   font-weight:bold;
    font-size: 1.5em;
    line-height: auto;
    color: black;
