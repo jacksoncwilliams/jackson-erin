@@ -40,31 +40,23 @@
    float: left;
    width: 100%;
    height: auto;
-   border: 1px solid #ccc;
-   border-width: 1px 0;
    list-style: none;
    margin-left: 0;
    margin-right: 0;
    text-align: center;
-   position: sticky;
-   position: -webkit-sticky;
-   top: 0; /* required */
+
 }
 
 #navbar ul {
    padding: 0;
-   position: sticky;
-   position: -webkit-sticky;
-   top: 0; /* required */
+
 
 }
 
 #navbar li { 
    display: inline;
    padding:  0 14px;
-   position: sticky;
-   position: -webkit-sticky;
-   top: 0; /* required */
+
 }
 #navbar a {
    font-family: 'Roboto Condensed', sans-serif;
