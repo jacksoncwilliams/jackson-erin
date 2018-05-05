@@ -80,12 +80,11 @@
 
 }
 
-#navbar ul {
+ul {
    padding: 0;
    position: sticky;
    position: -webkit-sticky;
    top: 0; /* required */
-
 
 }
 
