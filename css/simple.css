@@ -80,14 +80,14 @@
 }
 
 #navbar ul {
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0; /* required */
    
 }
 
 #navbar ul li {
    padding: 0;
-   position: sticky;
-   position: -webkit-sticky;
-   top: 0; /* required */
    display: inline;
    padding:  0 14px;
 }
