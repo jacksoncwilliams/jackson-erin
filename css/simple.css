@@ -32,7 +32,7 @@
    
 }
 
-#navbar { 
+nav { 
    border: 1px solid #ccc;
    border-width: 1px 0;
    list-style: none;
@@ -40,18 +40,21 @@
    margin-right: 0;
    padding: 0;
    text-align: center;
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0; /* required */
 }
 
-#navbar ul {
+nav ul {
    padding: 0;
 
 }
 
-#navbar li { 
+nav li { 
    display: inline;
    padding:  0 14px;
 }
-#navbar a {
+nav a {
    font-family: 'Arial'; 
    font-size: 2em;
    line-height: 49px;
@@ -60,7 +63,7 @@
    text-transform: uppercase;
 }
 
-#navbar ul li a:hover {
+nav ul li a:hover {
   text-decoration: underline;
 }
 
