@@ -43,10 +43,9 @@
 }
 
 #navbar ul {
-   padding: 0 100px;
-   display: flex;
+   padding: 0;
+   display: inline-block;
    margin: 0;
-   float: right;
 }
 
 #navbar ul li {
