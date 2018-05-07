@@ -3,7 +3,7 @@
    ========================================================================== */
 #intro {
    background-color: #ffffff;
-   position: fixed;
+   position: absolute;
    padding-bottom: 10px;
    width: 100%;
    height: auto;
