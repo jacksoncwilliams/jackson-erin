@@ -81,7 +81,8 @@
    margin-bottom: 0;
    margin-right: 0;
    text-align: center;
-   background-color: #ffffff;
+   background: none repeat scroll 0 0 #CC0000;
+   transition: background-color 0.2s linear 0s;
 }
 #navbar ul{
    padding: 0;
