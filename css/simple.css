@@ -65,10 +65,10 @@
 
 
 #navbar { 
-   padding-bottom: 10px;
+   padding-bottom: 0;
    padding-left: 0;
    padding-right: 0;
-   padding-top: 10px;
+   padding-top: 0px;
    position: sticky;
    position: -webkit-sticky;
    top: 0;
@@ -80,7 +80,9 @@
    margin-right: 0;
    text-align: center;
 }
-
+#navbar ul{
+   padding: 0;
+}
 #navbar ul li {
    padding: 0;
    display: inline;
