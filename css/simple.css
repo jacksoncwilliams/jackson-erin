@@ -70,7 +70,10 @@
    padding-left: 0;
    padding-right: 0;
    padding-top: 300px;
-   position: relative;
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0;
+   z-index: 150;
    width: 100%;
    height: auto;
    list-style: none;
@@ -80,9 +83,6 @@
 }
 
 #navbar ul li {
-   position: sticky;
-   position: -webkit-sticky;
-   top: 0; /* required */
    padding: 0;
    display: inline;
    padding:  0 14px;
