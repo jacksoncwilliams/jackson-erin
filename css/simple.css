@@ -65,10 +65,10 @@
 
 
 #navbar { 
-   padding-bottom: 0;
+   padding-bottom: 10px;
    padding-left: 0;
    padding-right: 0;
-   padding-top: 0px;
+   padding-top: 10px;
    position: sticky;
    position: -webkit-sticky;
    top: 0;
