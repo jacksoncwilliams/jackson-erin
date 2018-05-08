@@ -48,8 +48,8 @@
   background: linear-gradient(to right, transparent, #818078, transparent);
   position: absolute;
   left: 0;
-  top: 50%;
-  width: 100%;
+  top: 30%;
+  width: 80%;
   height: 1px;
 }
 .hr-text:after {
