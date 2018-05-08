@@ -157,7 +157,12 @@
    color: #CCCCCC; 
    text-align: center;
 }
-
+#weddingparty p {
+   font-family:'Roboto Condensed', sans-serif;
+   font-size: 1em;
+   color: #000000; 
+   text-align: center;
+}
 #thingstodo {
    background-color: #ffffff;
    padding-bottom: 10px;
