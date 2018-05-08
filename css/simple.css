@@ -49,9 +49,7 @@
   position: absolute;
   left: 0;
   top: 50%;
-  width: 80%;
-  width: 50%;
-  width: 25%;
+  width: 100%;
   height: 1px;
 }
 .hr-text:after {
@@ -63,7 +61,6 @@
   line-height: 1.5em;
   color: #000000;
   background-color: #FFFFFF;
-  width: 80%;
 }
 
 
