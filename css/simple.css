@@ -132,6 +132,20 @@
    color: black; 
 }
 
+#engagement {
+   background-color: #ffffff;
+   padding-bottom: 10px;
+   width: 100%;
+   height: auto;
+   padding-top: 50px;
+}
+
+#engagement h1 {
+   font-family:'Roboto Condensed', sans-serif;
+   font-size: 3em;
+   color: black; 
+}
+
 #weddingparty {
    background-color: #ffffff;
    padding-bottom: 10px;
