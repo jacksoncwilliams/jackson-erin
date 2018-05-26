@@ -37,14 +37,14 @@
 }
 
 .introsmall {
-   width: 960px;
+   width: 599px;
    height: auto;
    display: none;
 }
 
 @media (max-width: 600px) {
    .introsmall {
-       width: 960px;
+       width: 599px;
        height: auto;
    }
    .introbig {
