@@ -31,11 +31,26 @@
    
 }
 
-.introimg {
+.introbig {
    width: 960px;
    height: auto;
 }
 
+.introsmall {
+   width: 960px;
+   height: auto;
+   display: none;
+}
+
+@media (max-width: 600px) {
+   .introsmall {
+       width: 960px;
+       height: auto;
+   }
+   .introbig {
+      display: none;
+   }
+}
 
 .hr-text {
   font-family: Futura, sans-serif; 
