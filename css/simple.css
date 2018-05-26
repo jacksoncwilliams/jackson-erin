@@ -31,23 +31,20 @@
    
 }
 
-@media (max-width: 3000000px) {
 .introbig {
    width: 960px;
    height: auto;
-   }
+}
 
 .introsmall {
-   width: 599px;
-   height: auto;
    display: none;
-   }
 }
 
 @media (max-width: 600px) {
    .introsmall {
-       width: 600px;
-       height: auto;
+      display: block;
+      width: 600px;
+      height: auto;
    }
    .introbig {
       display: none;
