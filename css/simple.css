@@ -1,4 +1,20 @@
 /* =============================================================================
+   Mobile Version Edits
+   ========================================================================== */
+@media (max-width: 600px) {
+   .introsmall {
+      display: block;
+      width: 600px;
+      height: auto;
+   }
+   .introbig {
+      display: none;
+   }
+   
+   
+}
+
+/* =============================================================================
    Intro
    ========================================================================== */
 #intro {
@@ -40,17 +56,6 @@
    display: none;
 }
 
-@media (max-width: 600px) {
-   .introsmall {
-      display: block;
-      width: 600px;
-      height: auto;
-   }
-   .introbig {
-      display: none;
-   }
-}
-
 .hr-text {
   font-family: Futura, sans-serif; 
   line-height: 1em;
@@ -82,7 +87,9 @@
   background-color: #FFFFFF;
 }
 
-
+/* =============================================================================
+   Navigation
+   ========================================================================== */
 #navbar { 
    padding-bottom: 10px;
    padding-left: 0;
@@ -123,13 +130,9 @@
    text-transform: uppercase;
 }
 
-
 #navbar ul li a:hover {
   text-decoration: underline;
 }
-
-
-
 
 *::-moz-selection {
     background: none repeat scroll 0 0 #e6af61;
@@ -137,6 +140,9 @@
     text-shadow: none;
 }
 
+/* =============================================================================
+   About
+   ========================================================================== */
 #about {
    background-color: #ffffff;
    padding-bottom: 10px;
@@ -151,6 +157,9 @@
    color: black; 
 }
 
+/* =============================================================================
+   Engagement Video
+   ========================================================================== */
 #engagement {
    background-color: #ffffff;
    padding-bottom: 10px;
@@ -165,6 +174,9 @@
    color: black; 
 }
 
+/* =============================================================================
+   Wedding Party
+   ========================================================================== */
 #weddingparty {
    background-color: #ffffff;
    padding-bottom: 10px;
@@ -190,6 +202,10 @@
    text-align: center;
 }
 
+/* =============================================================================
+   Things To Do
+   ========================================================================== */
+
 #thingstodo {
    background-color: #ffffff;
    padding-bottom: 10px;
@@ -203,6 +219,9 @@
    color: black; 
 }
 
+/* =============================================================================
+   Gift Registry
+   ========================================================================== */
 #giftregistry {
    background-color: #ffffff;
    padding-bottom: 10px;
