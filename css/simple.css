@@ -30,7 +30,7 @@
       display: block;
    }
    
-   #mobilespan {
+   .mobilespan {
       display: block;
    }
     
@@ -47,7 +47,7 @@
    }
    .mobilenavbar a {
       clear: left;
-      color: white;
+      color: black;
       display: block;
       text-decoration: none;
       font-size: 22px;
@@ -63,7 +63,7 @@
       margin: 1em 0 0 1em;
    }
    .open {
-      color: white;
+      color: black;
       font-size: 30px;
       float: left;
       padding-left: 1em;
@@ -170,7 +170,7 @@
    #mobilenavbar {
       display: none;
    }
-   #mobilespan {
+   .mobilespan {
       display: none;
    }
 }
