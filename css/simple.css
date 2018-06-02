@@ -16,6 +16,8 @@
       display: block;
       width: 600px;
       height: auto;
+      padding-left: 5px;
+      padding-right: 5px;
    }
    .introbig {
       display: none;
