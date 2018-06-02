@@ -110,6 +110,7 @@ background:#ffffff;
 }
 .menu ul {
    display:inline-block;
+   display: inline;
 }
 .menu li {
    margin:0px 50px 0px 0px;
