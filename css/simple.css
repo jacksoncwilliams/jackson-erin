@@ -26,11 +26,11 @@
       display: none;
    }
    
-   #mobienavbar {
+   #mobilenavbar {
       display: block;
    }
    
-   #mobienspan {
+   #mobilespan {
       display: block;
    }
     
@@ -158,7 +158,7 @@
    #mobilenavbar {
       display: none;
    }
-   #mobienspan {
+   #mobilespan {
       display: none;
    }
 }
