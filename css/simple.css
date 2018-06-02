@@ -24,7 +24,9 @@
    #navbar {
       display: none;
    }
-   
+   #about {
+      padding-top: 0px;
+   }
 
 }
 
