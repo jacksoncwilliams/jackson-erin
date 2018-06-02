@@ -28,9 +28,10 @@ title: Jackson Williams
 		</nav>
 	</section>
 
-<section id="mobilenavbar">
+	<section id="mobilenavbar" class="mobilenavbar">
 		<nav>
 			<ul>
+				<a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
 				<li><a href="#intro">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#engagement">Engagement Video</a></li>
@@ -40,7 +41,8 @@ title: Jackson Williams
 			</ul>
 		</nav>
 	</section>
-
+	
+	<span id="mobilespan" onclick="openNav()" class="open" id="open">&#9776</span>
 	
 	<section id="about">
 		<div class="container">
@@ -231,3 +233,15 @@ $('a').click(function() {
     }
 
 </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("open").style.display = "none";
+            document.getElementById("mobilenavbar").style.width = "100%";
+        }
+        function closeNav() {
+            
+            document.getElementById("mobilenavbar").style.width = "0";
+            document.getElementById("open").style.display = "block";
+        }
+    </script>
