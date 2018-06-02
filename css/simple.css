@@ -1,18 +1,7 @@
 /* =============================================================================
    Mobile Version Edits
    ========================================================================== */
-@media (max-width: 600px) {
-   .introsmall {
-      display: block;
-      width: 600px;
-      height: auto;
-   }
-   .introbig {
-      display: none;
-   }
-   
 
-}
 
 /* =============================================================================
    Intro
@@ -54,6 +43,19 @@
 
 .introsmall {
    display: none;
+}
+
+@media (max-width: 600px) {
+   .introsmall {
+      display: block;
+      width: 600px;
+      height: auto;
+   }
+   .introbig {
+      display: none;
+   }
+   
+
 }
 
 .hr-text {
