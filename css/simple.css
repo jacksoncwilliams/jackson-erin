@@ -14,10 +14,10 @@
 @media (max-width: 600px) {
    .introsmall {
       display: block;
-      width: 600px;
+      width: 570px;
       height: auto;
-      padding-left: 5px;
-      padding-right: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
    }
    .introbig {
       display: none;
