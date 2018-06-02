@@ -25,6 +25,10 @@
    #navbar {
       display: none;
    }
+   
+   #mobienavbar {
+      display: block;
+   }
 
 
 }
@@ -97,6 +101,7 @@
    Navigation
    ========================================================================== */
 #navbar { 
+   display: block;
    padding-bottom: 10px;
    padding-left: 0;
    padding-right: 0;
