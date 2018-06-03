@@ -114,17 +114,16 @@ background:#ffffff;
 }
 .menu ul {
    display:inline-block;
-   padding: 0;
 }
 .menu li {
    margin:0px 50px 0px 0px;
    float:left;
    list-style:none;
    font-size:17px;
-   padding: 0;
+   padding: 0 10px 0 0;
 }
 .menu li:last-child {
-margin-right:0px;
+margin-right: 10px;
 }
 .menu a {
 text-shadow:0px 1px 0px rgba(0,0,0,0.5);
