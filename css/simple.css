@@ -186,11 +186,11 @@ display:block;
 }
 .toggle-nav {
 padding:20px;
-float:left;
+float:right;
 display:inline-block;
 box-shadow:0px 1px 1px rgba(0,0,0,0.15);
 border-radius:3px;
-background:#303030;
+background:#ffffff;
 text-shadow:0px 1px 0px rgba(0,0,0,0.5);
 color:#777;
 font-size:20px;
