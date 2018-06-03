@@ -110,13 +110,14 @@ background:#ffffff;
 }
 .menu ul {
    display:inline-block;
-   display: inline;
+   padding: 0;
 }
 .menu li {
    margin:0px 50px 0px 0px;
    float:left;
    list-style:none;
    font-size:17px;
+   padding: 0;
 }
 .menu li:last-child {
 margin-right:0px;
