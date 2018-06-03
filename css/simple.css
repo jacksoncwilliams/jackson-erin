@@ -400,7 +400,7 @@ body {
 }
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-  color: #000000;
+  color: #dddddd;
 }
 #cssmenu ul ul li.has-sub > a:after {
   position: absolute;
