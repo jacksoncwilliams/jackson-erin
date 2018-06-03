@@ -4,6 +4,7 @@ jQuery(document).ready(function() {
     jQuery('.menu ul').toggleClass('active');
     e.preventDefault();  
   });
+   var $root = $('html, body');
   $('a').click(function() {
     $root.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
