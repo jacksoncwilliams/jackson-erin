@@ -301,7 +301,7 @@ body {
   float: none;
 }
 #cssmenu.align-center ul ul {
-  text-align: center;
+  text-align: left;
 }
 #cssmenu.align-right > ul > li {
   float: right;
