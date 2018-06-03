@@ -317,7 +317,7 @@ body {
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-  color: #ffffff;
+  color: #66a992;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 30px;
