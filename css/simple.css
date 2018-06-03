@@ -95,6 +95,7 @@
    position: -webkit-sticky;
    top: 0;
    z-index: 150;
+   text-align: center;
 }
 
 *::-moz-selection {
@@ -290,7 +291,7 @@ body {
   background: #333333;
 }
 #cssmenu > ul > li {
-  float: left;
+  display: inline-block;
 }
 #cssmenu.align-center > ul {
   font-size: 0;
