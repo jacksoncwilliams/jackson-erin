@@ -126,9 +126,9 @@ background:#ffffff;
 margin-right: 50px;
 }
 .menu a {
-text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-color:#777;
-transition:color linear 0.15s;
+   text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+   color:#777;
+   transition:color linear 0.15s;
 }
 .menu a:hover, .menu .current-item a {
 text-decoration:none;
@@ -183,7 +183,8 @@ float:none;
 display:block;
 }
 .menu a {
-display:block;
+   display:block;
+   text-align: left;
 }
 .toggle-nav {
 padding:20px;
