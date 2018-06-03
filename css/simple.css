@@ -312,7 +312,7 @@ body {
   font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #dddddd;
+  color: #000000;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -400,7 +400,7 @@ body {
 }
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-  color: #ffffff;
+  color: #000000;
 }
 #cssmenu ul ul li.has-sub > a:after {
   position: absolute;
@@ -442,6 +442,7 @@ body {
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
   #cssmenu {
     width: 100%;
+    background: #ffffff;
   }
   #cssmenu ul {
     width: 100%;
