@@ -41,6 +41,7 @@
     color: #000000;
     font-family: Futura, sans-serif; 
     font-size: 1em;
+    line-height: 1.5em;
     font-weight: 400;
     text-transform: uppercase;
     
@@ -52,7 +53,7 @@
    color: #000000;
    font-family: 'Pinyon Script', cursive;
    font-weight: 100;
-   font-size: 3.5em;
+   font-size: 4em;
 }
 
 #intro h3 {
