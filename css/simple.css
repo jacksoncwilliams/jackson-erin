@@ -39,21 +39,29 @@
     margin: 0;
     text-align: center;
     color: #000000;
-    font-family: 'Great Vibes', cursive;
-    font-size: 3.25em;
+    font-family: Futura, sans-serif; 
+    font-size: 1em;
     font-weight: 400;
-    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
 }
 
 #intro h2 {
    margin: 0;
    text-align: center;
    color: #000000;
-   font-family: 'Great Vibes', cursive;
+   font-family: 'Pinyon Script', cursive;
    font-size: 3.5em;
-   font-weight: 400;
-   letter-spacing: 0.1em;
-   
+}
+
+#intro h3 {
+    margin: 0;
+    text-align: center;
+    color: #000000;
+    font-family: Futura, sans-serif; 
+    font-size: 1em;
+    font-weight: 400;
+    
 }
 
 .hr-text {
