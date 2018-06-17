@@ -22,7 +22,28 @@
       display: none;
    }
 }
+/* =============================================================================
+   Navigation
+   ========================================================================== */
+.navbar {
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0;
+   z-index: 150;
+   text-align: center;
+   font-family: Futura, sans-serif; 
+   padding-top: 20px;
+   padding-bottom: 20px;
+}  
+.header-scrolled {
+  background-color: rgba(249,249,249,0.9);
+}
 
+*::-moz-selection {
+   background: none repeat scroll 0 0 #e6af61;
+   color: #fff;
+   text-shadow: none;
+}
 /* =============================================================================
    Intro
    ========================================================================== */
@@ -97,28 +118,6 @@
    background-color: #FFFFFF;
 }
 
-/* =============================================================================
-   Navigation
-   ========================================================================== */
-.navbar {
-   position: sticky;
-   position: -webkit-sticky;
-   top: 0;
-   z-index: 150;
-   text-align: center;
-   font-family: Futura, sans-serif; 
-   padding-top: 20px;
-   padding-bottom: 20px;
-}  
-.header-scrolled {
-  background-color: rgba(249,249,249,0.9);
-}
-
-*::-moz-selection {
-   background: none repeat scroll 0 0 #e6af61;
-   color: #fff;
-   text-shadow: none;
-}
 
 /* =============================================================================
    About
@@ -134,7 +133,7 @@
 #about h1 {
    font-family:Futura, sans-serif; 
    font-size: 3em;
-   color: black; 
+   color: #808080;
    text-align: center;
    text-transform: uppercase;
    font-weight: 200;
@@ -143,22 +142,25 @@
 #about h2 {
    font-family:Futura, sans-serif; 
    font-size: 2em;
-   color: black; 
+   color: #808080; 
    text-align: center;
    font-weight: 100;
+   margin: 0 0 0 0;
 }
 #about h3 {
    font-family:Futura, sans-serif; 
    font-size: 2em;
-   color: black; 
+   color: #808080;
    text-align: center;
    font-style: italic;
+   margin: 0 0 0 0;
 }
 #about p {
    font-family:Futura, sans-serif; 
    font-size: 1em;
-   color: black; 
+   color: #808080;
    text-align: center;
+   margin: 0 0 0 0:
 }
 
 /* =============================================================================
