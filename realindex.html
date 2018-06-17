@@ -211,3 +211,22 @@ $('a').click(function() {
 
 </script>
 
+<script>
+	var header = jQuery(".navbar");
+	var headerScroll = "header-scrolled";
+	
+	jQuery(document).scroll( function() {
+		if(jQuery(this).scrollTop() > 0) {
+				
+		    header.addClass(headerScroll);
+
+		}
+		else {
+
+		    header.removeClass(headerScroll);
+								
+		}
+	});
+	
+</script>
+
