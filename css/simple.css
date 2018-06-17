@@ -132,9 +132,29 @@
 }
 
 #about h1 {
-   font-family:'Roboto Condensed', sans-serif;
+   font-family:Futura, sans-serif; 
    font-size: 3em;
    color: black; 
+   text-align: center;
+}
+#about h2 {
+   font-family:Futura, sans-serif; 
+   font-size: 2em;
+   color: black; 
+   text-align: center;
+}
+#about h3 {
+   font-family:Futura, sans-serif; 
+   font-size: 2em;
+   color: black; 
+   text-align: center;
+   font-style: italic;
+}
+#about p {
+   font-family:Futura, sans-serif; 
+   font-size: 1em;
+   color: black; 
+   text-align: center;
 }
 
 /* =============================================================================
