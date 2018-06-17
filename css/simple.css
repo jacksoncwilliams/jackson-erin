@@ -110,7 +110,7 @@
 }
    
  #navbar fixed{
-  background: rgba(255,255,255,0.6);
+  background: rgba(405,405,155,0.6);
 }
 
 
@@ -384,7 +384,6 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   color: #000000;
-  font-weight: 700;
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
@@ -462,7 +461,6 @@ body {
   font-size: 12px;
   text-decoration: none;
   color: #dddddd;
-  font-weight: 400;
   background: #333333;
 }
 #cssmenu ul ul li:last-child > a,
