@@ -358,11 +358,8 @@ body {
 }
 #cssmenu {
   font-family: Futura, sans-serif; 
-  background-color: #ffffff;
 }
-#cssmenu.fixed {
-  background-color: rgba(249,249,249,0.9);
-}
+
 #cssmenu > ul > li {
   display: inline-block;
 }
