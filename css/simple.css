@@ -107,10 +107,9 @@
    z-index: 150;
    text-align: center;
    font-family: Futura, sans-serif; 
-}
-   
- #navbar fixed{
-  background: rgba(405,405,155,0.6);
+}  
+ #navbar.fixed{
+  background: rgba(249,249,249,0.9);
 }
 
 
@@ -360,6 +359,9 @@ body {
 #cssmenu {
   font-family: Futura, sans-serif; 
   background: #ffffff;
+}
+#cssmenu.fixed {
+  background: rgba(249,249,249,0.9);
 }
 #cssmenu > ul > li {
   display: inline-block;
