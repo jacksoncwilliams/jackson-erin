@@ -109,7 +109,7 @@
    font-family: Futura, sans-serif; 
 }  
  #navbar.fixed{
-  background: rgba(249,249,249,0.9);
+  background-color: rgba(249,249,249,0.9);
 }
 
 
@@ -358,10 +358,10 @@ body {
 }
 #cssmenu {
   font-family: Futura, sans-serif; 
-  background: #ffffff;
+  background-color: #ffffff;
 }
 #cssmenu.fixed {
-  background: rgba(249,249,249,0.9);
+  background-color: rgba(249,249,249,0.9);
 }
 #cssmenu > ul > li {
   display: inline-block;
