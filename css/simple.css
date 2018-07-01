@@ -132,8 +132,18 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 50px;
+   padding-top: 10px;
 }
+
+@media screen and (min-width: 800px) {
+   #about {
+      background-color: #ffffff;
+      padding-bottom: 10px;
+      width: 100%;
+      height: auto;
+      padding-top: 100px;
+   }
+}    
 
 #about h1 {
    font-family:Futura, sans-serif; 
@@ -176,7 +186,17 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 50px;
+   padding-top: 10px;
+}
+
+@media screen and (min-width: 800px) {
+   #engagement {
+      background-color: #ffffff;
+      padding-bottom: 10px;
+      width: 100%;
+      height: auto;
+      padding-top: 100px;
+   }
 }
 
 #engagement h1 {
@@ -248,7 +268,16 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 50px;
+   padding-top: 10px;
+}
+@media screen and (min-width: 800px) {
+   #weddingparty {
+      background-color: #ffffff;
+      padding-bottom: 10px;
+      width: 100%;
+      height: auto;
+      padding-top: 100px;
+   }
 }
 #weddingparty h1 {
    font-family:'Roboto Condensed', sans-serif;
@@ -277,7 +306,16 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 50px;
+   padding-top: 10px;
+}
+@media screen and (min-width: 800px) {
+   #thingstodo {
+      background-color: #ffffff;
+      padding-bottom: 10px;
+      width: 100%;
+      height: auto;
+      padding-top: 100px;
+   }
 }
 #thingstodo h1 {
    font-family:'Roboto Condensed', sans-serif;
@@ -293,7 +331,16 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 50px;
+   padding-top: 10px;
+}
+@media screen and (min-width: 800px) {
+   #giftregistry {
+      background-color: #ffffff;
+      padding-bottom: 10px;
+      width: 100%;
+      height: auto;
+      padding-top: 100px;
+   }
 }
 #giftregistry h1 {
    font-family:'Roboto Condensed', sans-serif;
