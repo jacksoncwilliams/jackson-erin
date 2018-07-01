@@ -299,6 +299,10 @@
    font-size: 3em;
    color: black; 
 }
+
+#giftregistry img:hover {
+   opacity: 0.5;
+}
    
 /* =============================================================================
    Next Area
