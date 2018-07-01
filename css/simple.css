@@ -22,7 +22,32 @@
       display: none;
    }
 }
+/* =============================================================================
+   Navigation
+   ========================================================================== */
+.navbar {
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0;
+   z-index: 150;
+   text-align: center;
+   font-family: Futura, sans-serif; 
+} 
+@media screen and (min-width: 800px) {
+   .navbar {
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}
+.header-scrolled {
+  background-color: rgba(249,249,249,0.9);
+}
 
+*::-moz-selection {
+   background: none repeat scroll 0 0 #e6af61;
+   color: #fff;
+   text-shadow: none;
+}
 /* =============================================================================
    Intro
    ========================================================================== */
@@ -97,22 +122,6 @@
    background-color: #FFFFFF;
 }
 
-/* =============================================================================
-   Navigation
-   ========================================================================== */
-#navbar {
-   position: sticky;
-   position: -webkit-sticky;
-   top: 0;
-   z-index: 150;
-   text-align: center;
-}
-
-*::-moz-selection {
-   background: none repeat scroll 0 0 #e6af61;
-   color: #fff;
-   text-shadow: none;
-}
 
 /* =============================================================================
    About
@@ -126,9 +135,36 @@
 }
 
 #about h1 {
-   font-family:'Roboto Condensed', sans-serif;
+   font-family:Futura, sans-serif; 
    font-size: 3em;
-   color: black; 
+   color: #808080;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 200;
+   margin: 0 0 0 0;
+}
+#about h2 {
+   font-family:Futura, sans-serif; 
+   font-size: 2em;
+   color: #808080; 
+   text-align: center;
+   font-weight: 100;
+   margin: 5px 0 0 0;
+}
+#about h3 {
+   font-family:Futura, sans-serif; 
+   font-size: 2em;
+   color: #808080;
+   text-align: center;
+   font-style: italic;
+   margin: 40px 0 5px 0;
+}
+#about p {
+   font-family:Futura, sans-serif; 
+   font-size: 1em;
+   color: #808080;
+   text-align: center;
+   margin: 0 0 0 0:
 }
 
 /* =============================================================================
@@ -352,9 +388,9 @@ body {
   display: none;
 }
 #cssmenu {
-  font-family: Montserrat, sans-serif;
-  background: #ffffff;
+  font-family: Futura, sans-serif; 
 }
+
 #cssmenu > ul > li {
   display: inline-block;
 }
@@ -377,10 +413,14 @@ body {
   font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #000000;
-  font-weight: 700;
+  color: #dddddd;
   text-transform: uppercase;
 }
+@media screen and (min-width: 800px) {
+   #cssmenu > ul > li > a {
+      color: #000000;
+   }
+}    
 #cssmenu > ul > li:hover > a {
   color: #66a992;
 }
@@ -456,7 +496,6 @@ body {
   font-size: 12px;
   text-decoration: none;
   color: #dddddd;
-  font-weight: 400;
   background: #333333;
 }
 #cssmenu ul ul li:last-child > a,
@@ -504,7 +543,13 @@ body {
   top: 17px;
   height: 0;
 }
-@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) 
+   and (max-width: 800px), only screen and (min--moz-device-pixel-ratio: 2) 
+   and (max-width: 800px), only screen and (-o-min-device-pixel-ratio: 2/1) 
+   and (max-width: 800px), only screen and (min-device-pixel-ratio: 2) 
+   and (max-width: 800px), only screen and (min-resolution: 192dpi) 
+   and (max-width: 800px), only screen and (min-resolution: 2dppx) 
+   and (max-width: 800px) {
   #cssmenu {
     width: 100%;
     background: #333333;
