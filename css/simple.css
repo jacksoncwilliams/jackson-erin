@@ -430,6 +430,7 @@ img {
 
 body {
    background-color: #FFFFFF;
+   -webkit-overflow-scrolling: auto; /* Stops scrolling immediately */
 }
 
 #blank {
