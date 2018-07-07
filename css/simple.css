@@ -53,15 +53,12 @@
    text-decoration: none;
    text-transform: uppercase;
 }
-.navbar a:hover {
+.navbar a:hover, a:active {
    color: #66a992;
 }
 .navbar ul {
    margin: 0;
    padding: 0;
-}
-.active {
-   color: #66a992;
 }
 .header-scrolled {
   background-color: rgba(249,249,249,0.9);
