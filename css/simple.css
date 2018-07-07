@@ -26,7 +26,7 @@
 /* =============================================================================
    Navigation
    ========================================================================== */
-.navbar {
+#navbar {
    position: sticky;
    position: -webkit-sticky;
    top: 0;
@@ -45,7 +45,7 @@
   box-sizing: border-box;
 } 
 @media screen and (min-width: 800px) {
-   .navbar {
+   #navbar {
       padding-top: 20px;
       padding-bottom: 20px;
    }
