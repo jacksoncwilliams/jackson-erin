@@ -27,15 +27,23 @@
    Navigation
    ========================================================================== */
 .navbar {
-   position: sticky;
-   position: -webkit-sticky;
-   top: 0;
-   z-index: 150;
    text-align: center;
    font-family: Futura, sans-serif; 
 }
 .navbar li {
    display: inline;
+}
+.navbar a {
+   color: #000000;
+}
+.navbar a:hover {
+   color: #66a992;
+}
+.navbar ul {
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0;
+   z-index: 150;
 }
 
 @media screen and (min-width: 800px) {
