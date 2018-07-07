@@ -132,7 +132,7 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 10px;
+   padding-top: 50px;
 }
 
 @media screen and (min-width: 800px) {
@@ -186,7 +186,7 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 10px;
+   padding-top: 50px;
 }
 
 @media screen and (min-width: 800px) {
@@ -269,7 +269,7 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 10px;
+   padding-top: 50px;
 }
 @media screen and (min-width: 800px) {
    #weddingparty {
@@ -307,7 +307,7 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 10px;
+   padding-top: 50px;
 }
 @media screen and (min-width: 800px) {
    #accommodations {
@@ -346,7 +346,7 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 10px;
+   padding-top: 50px;
 }
 @media screen and (min-width: 800px) {
    #thingstodo {
@@ -372,7 +372,7 @@
    padding-bottom: 10px;
    width: 100%;
    height: auto;
-   padding-top: 10px;
+   padding-top: 50px;
 }
 @media screen and (min-width: 800px) {
    #giftregistry {
