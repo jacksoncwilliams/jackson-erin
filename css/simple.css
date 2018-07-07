@@ -56,7 +56,7 @@
 .navbar a:hover {
    color: #66a992;
 }
-.navbar a:active {
+.navbar active {
    color: #66a992;
 }
 .navbar ul {
