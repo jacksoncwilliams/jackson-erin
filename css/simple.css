@@ -33,17 +33,11 @@
    z-index: 150;
    text-align: center;
    font-family: Futura, sans-serif; 
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  font-family: Futura, sans-serif; 
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-   display: inline-block;
-} 
+}
+.navbar li {
+   display: inline;
+}
+
 @media screen and (min-width: 800px) {
    .navbar {
       padding-top: 20px;
