@@ -119,6 +119,16 @@
   .sidenav a {font-size: 18px;}
 }
 
+.sidenavbutton {
+   position: fixed;
+}
+@media screen and (min-width: 600px) {
+   .sidenavbutton {
+      display: none;
+   }
+}
+   
+
 /* =============================================================================
    Intro
    ========================================================================== */
