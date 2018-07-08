@@ -33,16 +33,11 @@
    z-index: 150;
    text-align: center;
    font-family: Futura, sans-serif; 
-   padding: 0;
+   padding-top: 20px;
+   padding-bottom: 20px;
    margin: 0;
 }
-@media screen and (min-width: 800px) {
-   .navbar {
-      padding-top: 20px;
-      padding-bottom: 20px;
-   }
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
    .navbar {
       display: none;
    }
@@ -121,8 +116,9 @@
 
 .sidenavbutton {
    position: fixed;
+   background: #ffffff;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
    .sidenavbutton {
       display: none;
    }
