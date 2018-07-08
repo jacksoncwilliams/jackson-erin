@@ -42,6 +42,11 @@
       padding-bottom: 20px;
    }
 }
+@media screen and (max-width: 600px) {
+   .navbar {
+      display: none;
+   }
+}
 .navbar li {
    display: inline;
 }
@@ -75,9 +80,11 @@
    Mobile Navigation
    ========================================================================== */
 .sidenav {
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0;
     height: 100%;
     width: 0;
-    position: fixed;
     z-index: 900;
     top: 0;
     left: 0;
