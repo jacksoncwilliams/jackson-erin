@@ -120,7 +120,7 @@
    background: #ffffff;
    height: auto;
    width: 100%;
-   font-size: 12px;
+   font-size: 24px;
    cursor: pointer;
 }
 @media screen and (min-width: 800px) {
@@ -511,7 +511,16 @@ img {
 
 body {
    background-color: #FFFFFF;
-   -webkit-overflow-scrolling: auto; /* Stops scrolling immediately */
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.aligncenter {
+   text-align: center;
 }
 
 #blank {
