@@ -115,6 +115,25 @@
    margin: auto;
 }
 
+@media screen and (max-width: 800px) {
+   .introbig {
+      display: none;
+   }
+}
+
+.intromobile {
+   width: auto;
+   height: auto;
+   margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+   .intromobile {
+      display: none;
+   }
+}
+
+	
 #intro {
    background-color: #ffffff;
    padding-bottom: 10px;
