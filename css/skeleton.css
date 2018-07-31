@@ -167,12 +167,12 @@ p {
 /* Links
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 a {
-  color: #1EAEDB; 
+  color: #808080; 
   text-decoration: none; }
   
 a:hover {
-  color: #0FA0CE; 
-  text-decoration: none; }
+  color: #808080; 
+  text-decoration: underline; }
 
 
 
