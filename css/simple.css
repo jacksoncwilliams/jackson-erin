@@ -211,7 +211,7 @@
    ========================================================================== */
 #about {
    background-color: #f9f9f9;
-   border-top: 5px solid #EEEEEE
+   border-top: 5px solid #EEEEEE;
    padding-bottom: 10px;
    width: 100%;
    height: auto;
@@ -220,7 +220,6 @@
 
 @media screen and (min-width: 800px) {
    #about {
-      background-color: #ffffff;
       padding-bottom: 10px;
       width: 100%;
       height: auto;
