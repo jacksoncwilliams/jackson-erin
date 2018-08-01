@@ -213,9 +213,14 @@
    background-color: #f9f9f9;
    border-top: 1px solid #EEEEEE;
    border-bottom: 1px solid #EEEEEE;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-repeat: no-repeat;
    padding-bottom: 10px;
    width: 100%;
-   height: auto;
+   height: 100%;
    padding-top: 30px;
 }
 
