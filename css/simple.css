@@ -119,6 +119,9 @@
    .introbig {
       display: none;
    }
+   #intro {
+      height: auto;
+   }
 }
 
 .intromobile {
@@ -141,7 +144,6 @@
    background-color: #ffffff;
    padding-bottom: 10px;
    width: 100%;
-   height: auto;
    padding-top: 10px;
    
 }
