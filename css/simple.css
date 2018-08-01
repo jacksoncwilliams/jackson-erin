@@ -211,7 +211,8 @@
    ========================================================================== */
 #about {
    background-color: #f9f9f9;
-   border-top: 5px solid #EEEEEE;
+   border-top: 1px solid #EEEEEE;
+   border-bottopm: 1px solid #EEEEEE;
    padding-bottom: 10px;
    width: 100%;
    height: auto;
@@ -256,7 +257,9 @@
    Engagement Video
    ========================================================================== */
 #engagement {
-   background-color: #ffffff;
+   background-color: #f9f9f9;
+   border-top: 1px solid #EEEEEE;
+   border-bottopm: 1px solid #EEEEEE;
    padding-bottom: 10px;
    width: 100%;
    height: auto;
@@ -265,7 +268,6 @@
 
 @media screen and (min-width: 800px) {
    #engagement {
-      background-color: #ffffff;
       padding-bottom: 10px;
       width: 100%;
       height: auto;
@@ -383,7 +385,9 @@
    Accommodations
    ========================================================================== */
 #accommodations {
-   background-color: #ffffff;
+   background-color: #f9f9f9;
+   border-top: 1px solid #EEEEEE;
+   border-bottopm: 1px solid #EEEEEE;
    padding-bottom: 10px;
    width: 100%;
    height: auto;
@@ -391,7 +395,6 @@
 }
 @media screen and (min-width: 800px) {
    #accommodations {
-      background-color: #ffffff;
       padding-bottom: 10px;
       width: 100%;
       height: auto;
